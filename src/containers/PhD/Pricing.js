@@ -59,7 +59,7 @@ function PricingTab(props: PricingTabProps) {
 
 const Pricing = () => {
 	const [yearly, setYearly] = useState(false);
-	const [isAnnual, setIsAnnual] = useState(true);
+	const [isAnnual] = useState(true);
 	return (
 		<section className={classNames("pricing pricing-mai section mb-160")}>
 		  <div className="container">

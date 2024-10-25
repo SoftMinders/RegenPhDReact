@@ -11,7 +11,7 @@ export const BlogTwo = (): React.ReactElement => {
             </section>
             <div className="container policy-terms">
             <div className="container policy-terms blog-inner">
-                <img src={require('../../assets/Images/blog/blog2.jpg')} className="topimg"/>
+                <img src={require('../../assets/Images/blog/blog2.jpg')} className="topimg" alt=""/>
                 <p>Regen PhD has established itself as a leading name in the field of DNA testing, earning a reputation for its exceptional services and commitment to accuracy. This entire blog will delve into the reasons why Regen PhD is widely considered the best DNA testing center. So let's read this writeup till the last line. </p>
                 <h2>Uncompromising Commitment To Accuracy And Reliability </h2>
 

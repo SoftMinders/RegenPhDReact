@@ -1,6 +1,5 @@
 import React from "react";
 import classNames from "classnames";
-import {Grid} from "@mui/material";
 class News extends React.Component {
     render() {
         return (
@@ -12,7 +11,7 @@ class News extends React.Component {
                             Regeneration by <span className="font-bold">Design</span>
                         </h2>
                         <div style={{position:'relative'}}>
-                            <img src={require("../../assets/Images/home/play-icon.png")} class="playIcon"></img>
+                            <img src={require("../../assets/Images/home/play-icon.png")} class="playIcon" alt=""></img>
                             <img src={require("../../assets/Images/home/video-back.png")} className="featured-image"
                                  alt="Regeneration by design"/>
                         </div>

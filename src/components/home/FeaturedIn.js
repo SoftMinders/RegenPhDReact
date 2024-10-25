@@ -1,23 +1,6 @@
 import React from "react";
 import classNames from "classnames";
 import {Grid} from "@mui/material";
-import AP from "../../assets/Images/press/apple-podcasts.jpg"
-import Forbes from "../../assets/Images/press/forbes.jpg"
-import BM from "../../assets/Images/press/business-mondays.jpg"
-import DB from "../../assets/Images/press/debi-robinson.jpg"
-import EBR from "../../assets/Images/press/ebr.jpg"
-import FB from "../../assets/Images/press/five-books.jpg"
-import HA from "../../assets/Images/press/healthy-aging.jpg"
-import IN from "../../assets/Images/press/iNews.jpg"
-import LP from "../../assets/Images/press/live-positively.jpg"
-import LE from "../../assets/Images/press/liz-earl.jpg"
-import Medium from "../../assets/Images/press/medium.jpg"
-import SYB from "../../assets/Images/press/start-your-business.jpg"
-import SB from "../../assets/Images/press/startup-business.jpg"
-import Techround from "../../assets/Images/press/Techround.jpg"
-import Wellbeing from "../../assets/Images/press/wellbeing.jpg"
-import Yahoo from "../../assets/Images/press/yahoo-life.jpg"
-import Yorkshire from "../../assets/Images/press/yorkshire.jpg"
 class News extends React.Component {
     render() {
         return (

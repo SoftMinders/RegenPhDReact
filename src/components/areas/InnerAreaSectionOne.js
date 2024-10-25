@@ -16,9 +16,9 @@ class InnerAreaSectionOne extends React.Component {
                                     <Grid item xs={12} md={4} className="position-relative">
                                         <div className="area-service">
                                             <ul>
-                                                <li><a href=""><img src={require('../../assets/Images/home/nav-bone.png')}></img> Bone <ArrowRightOutlined /></a></li>
-                                                <li><a href=""><img src={require('../../assets/Images/home/nav-dna.png')}></img> DNA <ArrowRightOutlined /></a></li>
-                                                <li><a href=""><img src={require('../../assets/Images/home/nav-mai.png')}></img> MAI <ArrowRightOutlined /></a></li>
+                                                <li><a href=""><img src={require('../../assets/Images/home/nav-bone.png')} alt="regenPhD Bone"></img> Bone <ArrowRightOutlined /></a></li>
+                                                <li><a href=""><img src={require('../../assets/Images/home/nav-dna.png')} alt="regenPhD DNA"></img> DNA <ArrowRightOutlined /></a></li>
+                                                <li><a href=""><img src={require('../../assets/Images/home/nav-mai.png')} alt="regenPhD MAI"></img> MAI <ArrowRightOutlined /></a></li>
                                             </ul>
                                         </div>
                                     </Grid>

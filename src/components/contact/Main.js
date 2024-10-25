@@ -1,9 +1,7 @@
 import React from "react";
 import classNames from "classnames";
-import {Grid} from "@mui/material";
 import {PhoneFilled} from "@ant-design/icons";
 import {MailFilled} from "@ant-design/icons";
-import {EnvironmentFilled} from "@ant-design/icons";
 
 class Contact extends React.Component {
     render() {

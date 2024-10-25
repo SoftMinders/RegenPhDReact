@@ -1,4 +1,5 @@
-import axios, { type Method, type AxiosPromise, type AxiosRequestConfig, type CancelTokenSource } from "axios";
+import axios from "axios";
+import type { Method, AxiosPromise, AxiosRequestConfig, CancelTokenSource } from "axios";
 import qs from "qs";
 const CancelToken = axios.CancelToken;
 

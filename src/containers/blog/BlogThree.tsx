@@ -10,7 +10,7 @@ export const BlogThree = (): React.ReactElement => {
                 <h1>Regen Phd: Your Premier Destination For Neuro Physical Therapy</h1>
             </section>
             <div className="container policy-terms blog-inner">
-                <img src={require('../../assets/Images/blog/blog3.jpg')} className="topimg"/>
+                <img src={require('../../assets/Images/blog/blog3.jpg')} className="topimg" alt=""/>
                 <p>Neuro physical therapy is a specialised branch of physiotherapy that focuses on the rehabilitation of individuals with neurological conditions. At Regen PhD, we are dedicated to offering cutting-edge neuro physical therapy, designed to support patients with conditions like stroke, traumatic brain injuries, multiple sclerosis, Parkinson's disease, and other neurological disorders. Our comprehensive approach combines state-of-the-art diagnostic tools and personalised therapy plans, making us the leading choice for those seeking advanced care and recovery.</p>
                 <h2>Why Choose Neuro Physical Therapy?</h2>
                 <p>Neurological conditions can impact muscle strength, coordination, balance, and overall mobility, often reducing a person’s quality of life. Neuro physical therapy plays a crucial role in restoring function by targeting these challenges through tailored exercises, specialised equipment, and hands-on techniques. This type of therapy not only aids in recovery but also empowers patients to regain control over their movements, promoting greater independence and improved well-being.</p>

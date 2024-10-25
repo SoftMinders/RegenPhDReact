@@ -1,7 +1,6 @@
 import React from "react";
 import classNames from "classnames";
 import {Grid, Stack} from "@mui/material";
-import {Button} from "antd";
 
 const HeroSplit = ({ hasBgColor, invertColor, ...props }) => {
 
@@ -23,7 +22,7 @@ const HeroSplit = ({ hasBgColor, invertColor, ...props }) => {
 								At Regen PhD, we specialise in advanced diagnostic techniques like eDNA analysis, MAI Scan, and Bone Scan to provide personalised insights into your health. Our expert team, led by Professor Paul Lee, is dedicated to helping you achieve optimal well-being through tailored health plans and proactive care, ensuring long-term vitality and strength.
 								</p>
 								<Stack spacing={2} direction="row" alignItems="center">
-									<a className="about-top-btn button" href="tel:0333 335 5848"><span><img src={require("../../assets/Images/home/phone-icon.png")}></img></span> Let's Talk</a>
+									<a className="about-top-btn button" href="tel:0333 335 5848"><span><img src={require("../../assets/Images/home/phone-icon.png")} alt="Call regenPhD"></img></span> Let's Talk</a>
 								</Stack>
 							</Grid>
 							<Grid item xs={12} md={6} className="left-container">

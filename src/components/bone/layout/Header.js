@@ -3,7 +3,7 @@ import classNames from "classnames";
 import {Link} from "react-router-dom";
 import Logo from "./partials/Logo";
 import {Button} from "@mui/material";
-import { useHistory ,useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 
 

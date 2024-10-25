@@ -1,13 +1,10 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import Hero from "./Hero";
 import { motion, useInView } from "framer-motion";
 import Teams from "./Teams";
 
 
 export const Biography = (): React.ReactElement => {
-    const isMobile = window.innerWidth < 768;
-    const [showFabs, setShowFabs] = useState(false);
-
     // Define animations for sliding from left and right
     const leftToRight = {
         hidden: { opacity: 0, x: -100, y: 0 },
@@ -41,9 +38,7 @@ export const Biography = (): React.ReactElement => {
     useEffect(() => {
         const handleScroll = (): void => {
             if (HeroRef.current) {
-                const rect = (HeroRef.current as any).getBoundingClientRect();
-                const halfHeight = rect.height / 2;
-                setShowFabs(rect.bottom <= halfHeight);
+                
             }
         };
 

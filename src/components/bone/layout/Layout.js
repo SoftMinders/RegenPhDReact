@@ -6,7 +6,7 @@ import ScrollToTop from "./ScrollToTop";
 const BoneLayoutDefault = ({ children, className, service, pageTitle }) => (
 	<div className={className}>
 		<Header service={service} className="invert-color" navPosition="right" />
-		<main className="site-content" pageTitle={pageTitle}>{children}</main>
+		<main className="site-content" title={pageTitle}>{children}</main>
 		<ScrollToTop/>
 		<Footer />
 	</div>

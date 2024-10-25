@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import classNames from "classnames";
 import HeroSplit from "components/home/HeroSplit";
 import FeaturesTiles from "components/home/FeaturesTiles";
@@ -13,33 +13,8 @@ import GoalSection from "../../components/home/GoalSection";
 import Contact from "../../components/home/Contact";
 import {Link} from "react-router-dom"
 
-const fabs = [
-    {
-        tooltip: "Bone Scan",
-        bottom: "calc(50% + 80px)",
-        image: require("../../assets/Images/home/bone.png"),
-        link: "/bone",
-        alt: "Bone Scan",
-    },
-    {
-        tooltip: "MAI Motion",
-        bottom: "50%",
-        image: require("../../assets/Images/home/mai.png"),
-        link: "/mai",
-        alt: "MAI Motion",
-    },
-    {
-        tooltip: "eDNA",
-        bottom: "calc(50% - 80px)",
-        image: require("../../assets/Images/home/dna.png"),
-        link: "/dna",
-        alt: "eDNA",
-    },
-];
 
 export const Home = (): React.ReactElement => {
-    const isMobile = window.innerWidth < 768;
-    const [showFabs, setShowFabs] = useState(false);
 
     // Define animations for sliding from left and right
     const leftToRight = {
@@ -50,14 +25,6 @@ export const Home = (): React.ReactElement => {
     const rightToLeft = {
         hidden: { opacity: 0, x: 100, y: 0 },
         visible: { opacity: 1, x: 0, y: 0 },
-    };
-    const fabAnimation = {
-        hidden: { scale: 0, opacity: 0 },
-        visible: (i: number) => ({
-            scale: 1,
-            opacity: 1,
-            transition: { duration: 0.6, scale: "easeInOut", delay: i * 0.3 },
-        }),
     };
     const transition = { duration: 0.8, ease: "easeInOut" };
 
@@ -84,9 +51,7 @@ export const Home = (): React.ReactElement => {
     useEffect(() => {
         const handleScroll = (): void => {
             if (heroSplitRef.current) {
-                const rect = (heroSplitRef.current as any).getBoundingClientRect();
-                const halfHeight = rect.height / 2;
-                setShowFabs(rect.bottom <= halfHeight);
+                
             }
         };
 
@@ -234,38 +199,6 @@ export const Home = (): React.ReactElement => {
                     </motion.div>
                 </motion.div>
             </motion.div>
-            {/*showFabs &&
-                fabs.map((fab, index) => (
-                    <motion.div
-                        key={fab.tooltip}
-                        initial="hidden"
-                        animate="visible"
-                        custom={index}
-                        whileHover="hover"
-                        variants={fabAnimation}
-                    >
-                        <Tooltip title={fab.tooltip} placement="left">
-                            <Fab
-                                sx={{
-                                    padding: isMobile ? 2 : 4,
-                                    position: "fixed",
-                                    bottom: fab.bottom,
-                                    transform: "translateY(50%)",
-                                    right: (theme) => theme.spacing(2),
-                                    background: "white",
-                                }}
-                                onClick={() => window.open(fab.link, "_self")}
-                            >
-                                <img
-                                    src={fab.image}
-                                    width={isMobile ? 24 : 36}
-                                    height={isMobile ? 24 : 36}
-                                    alt={fab.alt}
-                                />
-                            </Fab>
-                        </Tooltip>
-                    </motion.div>
-                ))*/}
         </>
     );
 };

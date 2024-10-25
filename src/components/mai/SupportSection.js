@@ -1,6 +1,5 @@
 import React from "react";
 import classNames from "classnames";
-import {Grid, Stack} from "@mui/material";
 
 class SupportSection extends React.Component {
     render() {
@@ -12,13 +11,13 @@ class SupportSection extends React.Component {
                             <h2 className="font-medium gradient-text-2 text-center"><span className="font-bold">Supported</span> By</h2>
                             <div className="row pt-4">
                                 <div class="col-sm-4">
-                                    <img src={require('../../assets/Images/mai/ktp.png')}/>
+                                    <img src={require('../../assets/Images/mai/ktp.png')} alt=""/>
                                 </div>
                                 <div class="col-sm-4">
-                                    <img src={require('../../assets/Images/mai/uol.png')}/>
+                                    <img src={require('../../assets/Images/mai/uol.png')} alt=""/>
                                 </div>
                                 <div class="col-sm-4">
-                                    <img src={require('../../assets/Images/mai/msk.png')}/>
+                                    <img src={require('../../assets/Images/mai/msk.png')} alt=""/>
                                 </div>
                             </div>
                         </div>

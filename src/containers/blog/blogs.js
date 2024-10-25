@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import classNames from "classnames";
 import SectionHeader from "../../components/bone/sections/partials/SectionHeader";
 import {Link} from "react-router-dom"

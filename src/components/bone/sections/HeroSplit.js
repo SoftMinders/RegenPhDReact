@@ -34,7 +34,7 @@ const HeroSplit = ({ hasBgColor, invertColor, ...props }) => {
 										size="large"
 										className="outlined-button blue font-medium"
 										style={{ borderRadius: 5, minHeight: 45 }}
-										onClick={() => toggleOpenRiskModal(true)}
+										onClick={() => window.open('https://app.regenphd.com/risk-assessment/')}
 									>
 										Check Your Risk
 									</Button>

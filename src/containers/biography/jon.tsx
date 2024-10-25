@@ -20,7 +20,7 @@ export const Jon = (): React.ReactElement => {
                             <p>Jon Whitehead is a distinguished Professor of Biomedical Biochemistry at the University of Lincoln, known for his pioneering research in obesity-related diseases. Collaborates closely with Prof. Lee at the London Cartilage Clinic. His expertise in fat cells and stem cells plays a crucial role in innovating treatments for joint and cartilage regeneration. His extensive research experience, coupled with a robust academic background, significantly contributes to advancing the clinic’s regenerative medicine endeavours.</p>
                             <h4>Connect With Me On</h4>
                             <ul className="social">
-                                <li><a href="https://www.linkedin.com/in/jon-whitehead-43191338/?originalSubdomain=uk" target="_Blank"><LinkedinOutlined /></a></li>
+                                <li><a href="https://www.linkedin.com/in/jon-whitehead-43191338/?originalSubdomain=uk" target="_Blank" rel="noreferrer"><LinkedinOutlined /></a></li>
                             </ul>
                         </div>
                     </div>

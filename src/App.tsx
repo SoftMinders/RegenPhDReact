@@ -23,6 +23,7 @@ import {Blog} from "./containers/blog/Blog";
 import {BlogOne} from "./containers/blog/BlogOne";
 import {BlogTwo} from "./containers/blog/BlogTwo";
 import {BlogThree} from "./containers/blog/BlogThree";
+import { RiskAssessment } from "components/risk/RiskAssessment";
 
 
 
@@ -34,7 +35,8 @@ const routes = [
         service: "bone",
         layout: true,
         title: "Bone Scan, Bone Regeneration - Cutting-Edge, Radiation-Free Bone Assessment",
-        "description": "Solution to provide a quick and radiation-free assessment of the bone condition in the lumbar vertebrae and femoral neck. Ensuring accurate and efficient bone health evaluation without the risks associated with DEXA."
+        description: "Solution to provide a quick and radiation-free assessment of the bone condition in the lumbar vertebrae and femoral neck. Ensuring accurate and efficient bone health evaluation without the risks associated with DEXA.",
+        pageTitle:""
     },
     {
         path: "/mri",
@@ -42,8 +44,9 @@ const routes = [
         service: "mri",
         className: "mri-layout",
         title: "Precision Imaging Unmatched Comfort - Revolutionary Musculoskeletal Assessment",
-        "description": "Step into the future of medical imaging with our Open MRI at MSK House. This advanced technology offers unparalleled clarity in diagnosing musculoskeletal conditions, all in a comfortable, open environment. Say goodbye to the discomfort of traditional MRI and experience precision imaging that adapts to your needs.",
+        description: "Step into the future of medical imaging with our Open MRI at MSK House. This advanced technology offers unparalleled clarity in diagnosing musculoskeletal conditions, all in a comfortable, open environment. Say goodbye to the discomfort of traditional MRI and experience precision imaging that adapts to your needs.",
         layout: true,
+        pageTitle:""
     },
     {
         path: "/dna",
@@ -51,8 +54,9 @@ const routes = [
         service: "dna",
         className: "dna-layout",
         title: "Advanced, Non-Invasive Genetic Insights - Unlock Your Genetic Health Potential",
-        "description": "Discover a cutting-edge, non-invasive solution for assessing your genetic predispositions across a wide range of health areas. Our DNA testing provides a quick and precise analysis of over 300 genetic markers, offering deep insights into your overall well-being, from nutrition and fitness to disease risk.",
+        description: "Discover a cutting-edge, non-invasive solution for assessing your genetic predispositions across a wide range of health areas. Our DNA testing provides a quick and precise analysis of over 300 genetic markers, offering deep insights into your overall well-being, from nutrition and fitness to disease risk.",
         layout: true,
+        pageTitle:""
     },
     {
         path: "/research",
@@ -60,8 +64,9 @@ const routes = [
         service: "bone",
         className: "bone-layout",
         title: "Latest Research & Publications in REMS Bone Density scan",
-        "description": "Solution to provide a quick and radiation-free assessment of the bone condition in the lumbar vertebrae and femoral neck. Ensuring accurate and efficient bone health evaluation without the risks associated with DEXA.",
+        description: "Solution to provide a quick and radiation-free assessment of the bone condition in the lumbar vertebrae and femoral neck. Ensuring accurate and efficient bone health evaluation without the risks associated with DEXA.",
         layout: true,
+        pageTitle:""
     },
     {
         path: "/",
@@ -70,6 +75,7 @@ const routes = [
         title: "Stay Young, Be Strong, Live Forever",
         description: "Stay Young, Be Strong, Live Forever",
         layout: true,
+        pageTitle:""
     },
     {
         path: "/about",
@@ -78,6 +84,7 @@ const routes = [
         title: "About regenPHD",
         description: "Stay Young, Be Strong, Live Forever",
         layout: true,
+        pageTitle:""
     },
     {
         path: "/404",
@@ -86,6 +93,7 @@ const routes = [
         title: "The Page You are Requesting is Not Found",
         description: "Stay Young, Be Strong, Live Forever",
         layout: true,
+        pageTitle:""
     },
     {
         path: "/contact",
@@ -94,6 +102,7 @@ const routes = [
         title: "Contact Us | Regen PHD",
         description: "Stay Young, Be Strong, Live Forever",
         layout: true,
+        pageTitle:""
     },
     {
         path: "/mai",
@@ -103,6 +112,7 @@ const routes = [
         title: "MAI | Regen PHD",
         description: "Stay Young, Be Strong, Live Forever",
         layout: true,
+        pageTitle:""
     },
     {
         path: "/areas",
@@ -111,6 +121,7 @@ const routes = [
         title: "Areas We Serve | Regen PHD",
         description: "Stay Young, Be Strong, Live Forever",
         layout: true,
+        pageTitle:""
     },
     {
         path: "/areas/birmingham",
@@ -155,7 +166,7 @@ const routes = [
         title: "Biography | Regen PHD",
         description: "Stay Young, Be Strong, Live Forever",
         layout: true,
-        pageTitle:"Biography"
+        pageTitle:"Prof. Paul YF Lee"
     },
     {
         path: "/biography/prof-jon-whitehead",
@@ -164,7 +175,7 @@ const routes = [
         title: "Biography | Regen PHD",
         description: "Stay Young, Be Strong, Live Forever",
         layout: true,
-        pageTitle:"Biography"
+        pageTitle:"Prof. Jon Whitehead"
     },
     {
         path: "/phd",
@@ -211,6 +222,15 @@ const routes = [
         layout: true,
         pageTitle:"Latest News & Articles"
     },
+    {
+        path: "/risk",
+        component: RiskAssessment,
+        className: "biography-layout",
+        title: "Latest News & Articles | Regen PHD",
+        description: "Stay Young, Be Strong, Live Forever",
+        layout: true,
+        pageTitle:"Latest News & Articles"
+    },
 ];
 
 export const App = (): React.ReactElement => {
@@ -228,7 +248,7 @@ export const App = (): React.ReactElement => {
                                 <Helmet>
                                     <title>{title}</title>
                                     <link rel="canonical" href={`https://regenphd.com${path}`} />
-                                    <meta name="description" content={description} />
+                                    <meta name={description} content={description} />
                                     <meta property="og:title" content={title} />
                                     <meta property="og:description" content={description} />
                                     <meta name="twitter:title" content={title} />

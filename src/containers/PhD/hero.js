@@ -1,7 +1,6 @@
 import React from "react";
 import classNames from "classnames";
-import {Button, Grid, Stack} from "@mui/material";
-import {ArrowRightOutlined} from "@ant-design/icons";
+import {Grid} from "@mui/material";
 
 const hero = ({hasBgColor, invertColor, ...props}) => {
     return (

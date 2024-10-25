@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import classNames from "classnames";
 import HeroSplit from "components/mai/HeroSplit";
 import MaiSecondSection from "components/mai/MaiSecondSection";
@@ -15,8 +15,6 @@ import { motion, useInView } from "framer-motion";
 
 
 export const Mai = (): React.ReactElement => {
-    const isMobile = window.innerWidth < 768;
-    const [showFabs, setShowFabs] = useState(false);
 
     // Define animations for sliding from left and right
     const leftToRight = {
@@ -27,14 +25,6 @@ export const Mai = (): React.ReactElement => {
     const rightToLeft = {
         hidden: { opacity: 0, x: 100, y: 0 },
         visible: { opacity: 1, x: 0, y: 0 },
-    };
-    const fabAnimation = {
-        hidden: { scale: 0, opacity: 0 },
-        visible: (i: number) => ({
-            scale: 1,
-            opacity: 1,
-            transition: { duration: 0.6, scale: "easeInOut", delay: i * 0.3 },
-        }),
     };
     const transition = { duration: 0.8, ease: "easeInOut" };
 
@@ -63,9 +53,7 @@ export const Mai = (): React.ReactElement => {
     useEffect(() => {
         const handleScroll = (): void => {
             if (heroSplitRef.current) {
-                const rect = (heroSplitRef.current as any).getBoundingClientRect();
-                const halfHeight = rect.height / 2;
-                setShowFabs(rect.bottom <= halfHeight);
+                
             }
         };
 

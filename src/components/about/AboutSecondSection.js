@@ -20,7 +20,7 @@ class AboutSecondSection extends React.Component {
                                     </Grid>
                                     <Grid item xs={12} md={6} className="left-container">
                                         <Stack justifyContent="center" style={{height: "100%"}}>
-                                            <h2 class="mt-0 font-bold gradient-text-2 mb-16">Welcome To <img src={require('../../assets/Images/logo.png')}/></h2>
+                                            <h2 class="mt-0 font-bold gradient-text-2 mb-16">Welcome To <img src={require('../../assets/Images/logo.png')} alt="RegenPhD"/></h2>
                                             <h4 className="mt-02"><span
                                                 className="font-bold">Comprehensive</span>  Disease Risk Assessment</h4>
                                             <p className="mb-0 mt-12 font-md font-regular">At Regen PhD, our Comprehensive Disease Risk Assessment utilises cutting-edge technology to evaluate your unique genetic and health profile. Through advanced diagnostics such as eDNA analysis and MAI Scan, we identify potential health risks and predispositions to various diseases. This thorough assessment not only highlights areas of concern but also provides actionable insights to help you take charge of your health. By understanding your risk factors, we can design a personalised prevention plan tailored to your needs, empowering you to make informed decisions and adopt lifestyle changes that promote long-term wellness and vitality.</p>

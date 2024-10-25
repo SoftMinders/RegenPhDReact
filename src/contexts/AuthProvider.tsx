@@ -1,4 +1,5 @@
-import React, {createContext, type ReactNode, useState} from "react";
+import React, {createContext, useState} from "react";
+import {type ReactNode} from "react"
 
 export interface AuthContextProps {
 	openRiskModal: boolean;
@@ -12,13 +13,9 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 	const toggleOpenRiskModal = (bool: boolean): void => {
 		setOpenRiskModal(bool);
 	};
+
 	return (
-		<AuthContext.Provider
-			value={{
-				openRiskModal,
-				toggleOpenRiskModal,
-			}}
-		>
+		<AuthContext.Provider value={{openRiskModal,toggleOpenRiskModal}}>
 			{children}
 		</AuthContext.Provider>
 	);

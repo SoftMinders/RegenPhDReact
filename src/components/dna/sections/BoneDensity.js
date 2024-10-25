@@ -1,6 +1,5 @@
 import React from "react";
 import classNames from "classnames";
-import SectionHeader from "./partials/SectionHeader";
 
 import { Grid } from "@mui/material";
 

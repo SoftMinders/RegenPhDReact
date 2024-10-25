@@ -7,14 +7,7 @@ import MissionVision from "components/about/MissionVision";
 import Testimonials from "components/about/Testimonials";
 
 
-
-import BoneDensity from "components/dna/sections/BoneDensity";
-import News from "components/dna/sections/News";
 import { motion, useInView } from "framer-motion";
-import SecondHeroSection from "components/dna/sections/SecondHeroSection";
-import FAQs from "components/dna/sections/FAQs";
-import Pricing from "components/dna/sections/Pricing";
-import HowItWorks from "../../components/dna/sections/HowItWorks";
 import { FixedFloatingButtons } from "../../components";
 
 export const About = (): React.ReactElement => {
@@ -34,24 +27,16 @@ export const About = (): React.ReactElement => {
 	// Create refs for each section
 	const heroSplitRef = useRef(null);
 	const secondHeroRef = useRef(null);
-	const featuresTilesRef = useRef(null);
 	const boneDensityRef = useRef(null);
-	const newsRef = useRef(null);
-	const pricingRef = useRef(null);
 	const testimonialsRef = useRef(null);
-	const faqsRef = useRef(null);
 	const howItWorksRef = useRef(null);
 
 	// Use useInView hook to trigger animations when each section is in view
 	const isHeroSplitInView = useInView(heroSplitRef, { once: false });
 	const isSecondHeroInView = useInView(secondHeroRef, { once: false });
-	const isFeaturesTilesInView = useInView(featuresTilesRef, { once: false });
 	const isBoneDensityInView = useInView(boneDensityRef, { once: false });
-	const isNewsInView = useInView(newsRef, { once: false });
 	const isHowItWorksInView = useInView(howItWorksRef, { once: false });
-	const isPricingInView = useInView(pricingRef, { once: false });
 	const isTestimonialsInView = useInView(testimonialsRef, { once: false });
-	const isFaqsInView = useInView(faqsRef, { once: false });
 
 	return (
 		<div className="bone">

@@ -19,19 +19,19 @@ class Footer extends React.Component {
 				<footer {...props} className={classes}>
 					<div className="container">
 						<div style={{textAlign:"center"}}>
-							<img src={require("../../../assets/Images/white_logo.png")} style={{display:'block',margin:'0px auto 30px auto'}}></img>
+							<img src={require("../../../assets/Images/white_logo.png")} style={{display:'block',margin:'0px auto 30px auto'}} alt="regenPhD"></img>
 							<FooterNav />
 							<FooterSocial />
 							<hr style={{borderTopColor:'#fff',margin:'30px 0'}}></hr>
-							<div class="row">
-								<div class="col-sm-6">
-								<div className="footer-copyright text-white">&copy; 2024 RegenPhD, All Rights Reserved | Powered By <a href="https://softmindersinc.com/" target="_Blank">Soft Minders</a></div>
+							<div className="row">
+								<div className="col-sm-6">
+								<div className="footer-copyright text-white">&copy; 2024 RegenPhD, All Rights Reserved | Powered By <a href="https://softmindersinc.com/" target="_Blank" rel="noreferrer">Soft Minders</a></div>
 								</div>
-								<div class="col-sm-6">
+								<div className="col-sm-6">
 									<React.Fragment>
-										<ul class="nav extranav">
-											<li class="home"><Link to="/privacy-policy">Privacy Policy</Link></li> | 
-											<li class="home"><Link to="/terms-conditions">Terms & Conditions</Link></li>
+										<ul className="nav extranav">
+											<li className="home"><Link to="/privacy-policy">Privacy Policy</Link></li> | 
+											<li className="home"><Link to="/terms-conditions">Terms & Conditions</Link></li>
 										</ul>
 									</React.Fragment>
 								</div>
@@ -40,28 +40,28 @@ class Footer extends React.Component {
 						</div>
 					</div>
 				</footer>
-				<footer class="mobile-footer">
+				<footer className="mobile-footer">
 					<div>
 						<React.Fragment>
-							<ul class="nav">
-								<li class="home">
+							<ul className="nav">
+								<li className="home">
 									<Link to="/phd">
-										<img src={require('../../../assets/Images/phd-icon-color.png')}/> PdD
+										<img src={require('../../../assets/Images/phd-icon-color.png')} alt="regenPhD"/> PdD
 									</Link>
 								</li>
-								<li class="bone">
+								<li className="bone">
 									<Link to="/bone">
-									<img src={require('../../../assets/Images/home/nav-bone.png')}/> BONE
+									<img src={require('../../../assets/Images/home/nav-bone.png')} alt="regenPhD Bone"/> BONE
 									</Link>
 								</li>
-								<li class="mai">
+								<li className="mai">
 									<Link to="/mai">
-										<img src={require('../../../assets/Images/home/nav-mai.png')}/> MAI
+										<img src={require('../../../assets/Images/home/nav-mai.png')} alt="regenPhD MAI"/> MAI
 									</Link>
 								</li>
-								<li class="dna">
+								<li className="dna">
 									<Link to="/dna">
-										<img src={require('../../../assets/Images/home/nav-dna.png')}/> DNA
+										<img src={require('../../../assets/Images/home/nav-dna.png')} alt="regenPhD DNA"/> DNA
 									</Link>
 								</li>
 							</ul>

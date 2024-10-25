@@ -134,7 +134,7 @@ export const BoneHome = (): React.ReactElement => {
 						size="large"
 						className="primary-button blue font-medium"
 						style={{ minHeight: 45, marginTop: 40 }}
-						onClick={() => toggleOpenRiskModal(true)}
+						onClick={() => window.open('https://app.regenphd.com/risk-assessment/')}
 					>
 						Check Your Risk
 					</Button>

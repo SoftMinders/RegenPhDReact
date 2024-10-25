@@ -1,6 +1,6 @@
 import React from "react";
 import classNames from "classnames";
-import {Grid, Stack} from "@mui/material";
+import {Grid} from "@mui/material";
 
 const Hero = ({ hasBgColor, invertColor, ...props }) => {
 

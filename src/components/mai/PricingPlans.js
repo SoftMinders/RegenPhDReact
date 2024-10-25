@@ -1,6 +1,5 @@
 import React,{useState} from "react";
 import classNames from "classnames";
-import SectionHeader from "./SectionHeader";
 import {Button, Grid, Stack} from "@mui/material";
 
 interface PricingTabProps {
@@ -60,7 +59,7 @@ function PricingTab(props: PricingTabProps) {
 
 const PricingPlans = () => {
 	const [yearly, setYearly] = useState(false);
-	const [isAnnual, setIsAnnual] = useState(true);
+	const [isAnnual] = useState(true);
 	return (
 		<section className={classNames("pricing pricing-mai section mb-160")}>
 		  <div className="container">

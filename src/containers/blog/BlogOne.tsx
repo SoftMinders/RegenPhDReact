@@ -10,7 +10,7 @@ export const BlogOne = (): React.ReactElement => {
                 <h1>Regen PhD Bone Scanning Test: A Comprehensive Guide To Benefits</h1>
             </section>
             <div className="container policy-terms blog-inner">
-                <img src={require('../../assets/Images/blog/blog1.jpg')} className="topimg"/>
+                <img src={require('../../assets/Images/blog/blog1.jpg')} className="topimg" alt=""/>
                 <p>Bone scanning test, a vital diagnostic tool, offers valuable insights into bone health. At Regen PhD, we employ advanced bone scanning techniques to provide accurate assessment and effective treatment plans. In this entire blog, you will explore the numerous benefits of choosing Regen PhD for your bone scanning needs. So let's read this blog till the last line. </p>
                 <h2>What Is Bone Scans?</h2>
 

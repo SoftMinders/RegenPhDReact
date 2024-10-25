@@ -1,5 +1,4 @@
 import React from 'react';
-import {Grid, Stack} from "@mui/material";
 import classNames from "classnames";
 
 
@@ -15,7 +14,7 @@ class Cta extends React.Component {
                             <p>Proactive Health Management, blending cutting-edge science with personalised wellness</p>
                         </div>
                         <div class="col-sm-6 text-right">
-                            <a href="tel:0333 335 5848"><span><img src={require("../assets/Images/home/phone-icon.png")}></img></span>GET IN TOUCH</a>
+                            <a href="tel:0333 335 5848"><span><img src={require("../assets/Images/home/phone-icon.png")} alt="Call regenPhD"></img></span>GET IN TOUCH</a>
                         </div>
                     </div>
                 </div>

@@ -32,8 +32,8 @@ export const Paul = (): React.ReactElement => {
                             <p>Over the past 10 years, Prof Lee has achieved research grants of £100,000 pounds. His research interests range from cartilage research, muscle injuries, Actovegin therapy to digital patient engagement and consent. He has over 50 peer reviewed publications. He also has most downloaded paper with Thieme Medical Publisher in 2017.</p>
                             <h4>Connect With Me On</h4>
                             <ul className="social">
-                                <li><a href="https://www.linkedin.com/in/paulleephd/?originalSubdomain=uk" target="_Blank"><LinkedinOutlined /></a></li>
-                                <li><a href="https://twitter.com/paulleephd?lang=en" target="_Blank"><XOutlined /></a></li>
+                                <li><a href="https://www.linkedin.com/in/paulleephd/?originalSubdomain=uk" rel="noreferrer" target="_Blank"><LinkedinOutlined /></a></li>
+                                <li><a href="https://twitter.com/paulleephd?lang=en" rel="noreferrer" target="_Blank"><XOutlined /></a></li>
                             </ul>
                         </div>
                     </div>

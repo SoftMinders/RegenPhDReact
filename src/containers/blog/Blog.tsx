@@ -1,14 +1,10 @@
-import React, { useRef, useState, useEffect } from "react";
-import classNames from "classnames";
+import React, { useRef, useEffect } from "react";
 import HeroSplit from "./hero";
 import { motion, useInView } from "framer-motion";
-import SectionHeader from "../../components/bone/sections/partials/SectionHeader";
 import Blogs from "./blogs";
 
 
 export const Blog = (): React.ReactElement => {
-    const isMobile = window.innerWidth < 768;
-    const [showFabs, setShowFabs] = useState(false);
 
     // Define animations for sliding from left and right
     const leftToRight = {
@@ -26,29 +22,17 @@ export const Blog = (): React.ReactElement => {
     // Create refs for each section
     const heroSplitRef = useRef(null);
     const blogRef = useRef(null);
-    const faqsRef = useRef(null);
-    const goalRef = useRef(null);
-    const infoRef = useRef(null);
-    const featureTilesRef = useRef(null);
-    const secondSectionRef = useRef(null);
 
     // Use useInView hook to trigger animations when each section is in view
     const isHeroSplitInView = useInView(heroSplitRef, { once: false });
-    const isSecondSectionInView = useInView(secondSectionRef, { once: false });
-    const isInfoSplitInView = useInView(infoRef, { once: false });
-    const isFeatureTilesSplitInView = useInView(featureTilesRef, { once: false });
-    const isGoalSplitInView = useInView(goalRef, { once: false });
     const isTestimonialsInView = useInView(blogRef, { once: false });
-    const isFaqsInView = useInView(faqsRef, { once: false });
 
     // State to control fab visibility
 
     useEffect(() => {
         const handleScroll = (): void => {
             if (heroSplitRef.current) {
-                const rect = (heroSplitRef.current as any).getBoundingClientRect();
-                const halfHeight = rect.height / 2;
-                setShowFabs(rect.bottom <= halfHeight);
+                
             }
         };
 

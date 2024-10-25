@@ -43,7 +43,7 @@ const Pricing = () => {
 										</div>
 									</div>
 									<div className="pricing-item-cta text-center mt-12">
-										<Button onClick={() => toggleOpenRiskModal(true)} className="primary-button blue" size="large">
+										<Button onClick={() => window.open('https://app.regenphd.com/risk-assessment/')} className="primary-button blue" size="large">
 											Check Your Risk
 										</Button>
 									</div>

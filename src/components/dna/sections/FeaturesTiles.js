@@ -1,6 +1,5 @@
 import React from "react";
 import classNames from "classnames";
-import SectionHeader from "./partials/SectionHeader";
 import { Grid, Stack } from "@mui/material";
 
 class FeaturesTiles extends React.Component {

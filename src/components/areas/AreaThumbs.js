@@ -1,7 +1,4 @@
 import React from "react";
-import classNames from "classnames";
-import {Grid, Stack} from "@mui/material";
-import {Button} from "antd";
 
 const AreaThumbs = () => {
 
@@ -12,32 +9,32 @@ const AreaThumbs = () => {
 				<div className="row">
 					<div class="col-sm-3">
 						<div class="area-thumb">
-							<a href="">
-								<img src={require('../../assets/Images/area/birmingham.jpg')}/>
+							<a href="/area/birmingham">
+								<img src={require('../../assets/Images/area/birmingham.jpg')} alt="regenPhD"/>
 								<span>Birmingham</span>
 							</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="area-thumb">
-							<a href="">
-								<img src={require('../../assets/Images/area/birmingham.jpg')}/>
+							<a href="/area/birmingham">
+								<img src={require('../../assets/Images/area/birmingham.jpg')} alt="regenPhD"/>
 								<span>Birmingham</span>
 							</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="area-thumb">
-							<a href="">
-								<img src={require('../../assets/Images/area/birmingham.jpg')}/>
+							<a href="/area/birmingham">
+								<img src={require('../../assets/Images/area/birmingham.jpg')} alt="regenPhD"/>
 								<span>Birmingham</span>
 							</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="area-thumb">
-							<a href="">
-								<img src={require('../../assets/Images/area/birmingham.jpg')}/>
+							<a href="/area/birmingham">
+								<img src={require('../../assets/Images/area/birmingham.jpg')} alt="regenPhD"/>
 								<span>Birmingham</span>
 							</a>
 						</div>

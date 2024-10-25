@@ -38,7 +38,7 @@ class AreaContact extends React.Component {
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <img src={require('../../assets/Images/area/inner-area5.png')}></img>
+                            <img src={require('../../assets/Images/area/inner-area5.png')} alt="regenPhD"></img>
                         </div>
                     </div>
                 </div>

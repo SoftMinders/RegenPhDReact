@@ -1,6 +1,5 @@
 import React from "react";
 import classNames from "classnames";
-import SectionHeader from "./partials/SectionHeader";
 import Accordion from "../elements/Accordion";
 import AccordionItem from "../elements/AccordionItem";
 

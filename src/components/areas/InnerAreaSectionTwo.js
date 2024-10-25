@@ -1,7 +1,6 @@
 import React from "react";
 import classNames from "classnames";
 import {Grid, Stack} from "@mui/material";
-import {ArrowRightOutlined} from "@ant-design/icons";
 
 
 class InnerAreaSectionTwo extends React.Component {

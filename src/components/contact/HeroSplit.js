@@ -1,7 +1,6 @@
 import React from "react";
 import classNames from "classnames";
-import {Grid, Stack} from "@mui/material";
-import {Button} from "antd";
+import {Grid} from "@mui/material";
 
 const HeroSplit = ({ hasBgColor, invertColor, ...props }) => {
 
@@ -24,7 +23,7 @@ const HeroSplit = ({ hasBgColor, invertColor, ...props }) => {
 								</p>
 							</Grid>
 							<Grid item xs={12} md={6} className="left-container">
-								<img src={require("../../assets/Images/banner/contact.jpg")} className="about-top" style={{filter:"drop-shadow(0px 2px 10px #fff)"}}	/>
+								<img src={require("../../assets/Images/banner/contact.jpg")} className="about-top" style={{filter:"drop-shadow(0px 2px 10px #fff)"}} alt="regenPhD Contact"/>
 							</Grid>
 						</Grid>
 					</div>
