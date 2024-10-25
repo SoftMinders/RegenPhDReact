@@ -1036,5 +1036,6 @@ color: #777;
   .dna-features2.features-tiles .tiles-item{width:100%;max-width:100%;flex-basis:90%}
   .dna-features2{padding-bottom: 50px;}
   .dna-layout .pricing-mai h2{position: relative;top: -50px;}
+  .home-hero-section .home-hero .buttons-row button{min-width: 250px;}
 }
 
