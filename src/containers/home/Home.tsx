@@ -11,6 +11,7 @@ import SectionHeader from "../../components/bone/sections/partials/SectionHeader
 import Blogs from "../../components/home/Blogs";
 import GoalSection from "../../components/home/GoalSection";
 import Contact from "../../components/home/Contact";
+import {Link} from "react-router-dom"
 
 const fabs = [
     {
@@ -132,6 +133,7 @@ export const Home = (): React.ReactElement => {
                                     (Regen PhD)
                                 </h2>
                             </SectionHeader>
+                            <React.Fragment><Link to="/phd" className="cntbtn">PhD</Link></React.Fragment>
                         </div>
                     </div>
                 </motion.div>

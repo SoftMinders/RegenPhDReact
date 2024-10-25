@@ -50,7 +50,7 @@ class Contact extends React.Component {
                                             </div>
                                             <div class="col-sm-10">
                                                 <h4>Have Any Question?</h4>
-                                                <p>+9845621354</p>
+                                                <p>333 335 5848</p>
                                             </div>
                                         </div>
                                     </div>

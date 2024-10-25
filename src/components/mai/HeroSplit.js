@@ -22,7 +22,7 @@ const HeroSplit = ({ hasBgColor, invertColor, ...props }) => {
 									Integrating Advanced 3D Mesh Technology with 3D Volumetric MRI for Unprecedented Insights into Human Motion.
 								</p>
 								<Stack spacing={2} direction="row" alignItems="center">
-									<a className="about-top-btn button" href=""><span><img src={require("../../assets/Images/home/phone-icon.png")}></img></span> Let's Talk</a>
+									<a className="about-top-btn button" href="tel:0333 335 5848"><span><img src={require("../../assets/Images/home/phone-icon.png")}></img></span> Let's Talk</a>
 								</Stack>
 							</Grid>
 							<Grid item xs={12} md={6} className="left-container">

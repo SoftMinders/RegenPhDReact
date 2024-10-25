@@ -43,7 +43,7 @@ class MaiFourthSection extends React.Component {
                                         			<p>We assure you that our templates are designed and created by professional designers.</p>
                                         		</div>
                                         	</div>
-                                        	<a href="" class="cntbtncmn">GET STARTED</a>
+                                        	<a href="https://app.regenphd.com/appointment/mai" class="cntbtncmn">GET STARTED</a>
                                         </Stack>
                                     </Grid>
                                     <Grid item xs={12} md={6} className="left-container">

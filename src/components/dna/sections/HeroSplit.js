@@ -27,7 +27,7 @@ const HeroSplit = ({ hasBgColor, invertColor, ...props }) => {
 								</p>
 
 								<Stack spacing={2} direction="row" alignItems="center">
-									<a className="about-top-btn button" href="https://app.regenphd.com/order/dna/">&nbsp; &nbsp; &nbsp; BOOK TEST</a>
+									<a className="about-top-btn button" href={`${process.env.REACT_APP_REDIRECT_DOMAIN}/order/dna/`} target="_Blank">&nbsp; &nbsp; &nbsp; BOOK TEST</a>
 								</Stack>
 							</Grid>
 							<Grid item xs={12} md={6} className="left-container">

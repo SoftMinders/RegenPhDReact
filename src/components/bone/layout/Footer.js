@@ -25,7 +25,7 @@ class Footer extends React.Component {
 							<hr style={{borderTopColor:'#fff',margin:'30px 0'}}></hr>
 							<div class="row">
 								<div class="col-sm-6">
-								<div className="footer-copyright text-white">&copy; 2024 RegenPhD, all rights reserved</div>
+								<div className="footer-copyright text-white">&copy; 2024 RegenPhD, All Rights Reserved | Powered By <a href="https://softmindersinc.com/" target="_Blank">Soft Minders</a></div>
 								</div>
 								<div class="col-sm-6">
 									<React.Fragment>
@@ -45,8 +45,8 @@ class Footer extends React.Component {
 						<React.Fragment>
 							<ul class="nav">
 								<li class="home">
-									<Link to="/">
-										<img src={require('../../../assets/Images/home/nav-home.png')}/> HOME
+									<Link to="/phd">
+										<img src={require('../../../assets/Images/phd-icon-color.png')}/> PdD
 									</Link>
 								</li>
 								<li class="bone">

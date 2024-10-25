@@ -17,7 +17,7 @@ export const FixedFloatingButtons = ({ service }: any): React.ReactElement => {
 						width: 60,
 						height: 60,
 					}}
-				>
+				> 
 					<PhoneFilled style={{ fontSize: 24, color: "#BD42F4" }} />
 				</Button>
 				<Button

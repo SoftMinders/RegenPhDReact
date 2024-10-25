@@ -77,7 +77,7 @@ const Pricing = () => {
 									</Stack>
 									<div className="pricing-item-cta text-center mb-8">
 										<Button
-											onClick={() => window.open(`${process.env.REACT_APP_REDIRECT_DOMAIN}/appointment/bone`, "_blank")}
+											onClick={() => window.open(`https://app.regenphd.com/appointment/bone`, "_blank")}
 											className="outlined-button blue"
 											size="large"
 										>

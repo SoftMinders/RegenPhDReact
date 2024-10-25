@@ -42,7 +42,7 @@ const HeroSplit = ({ hasBgColor, invertColor, ...props }) => {
 										size="large"
 										className="primary-button blue font-medium"
 										style={{ borderRadius: 5, minHeight: 45 }}
-										onClick={() => window.open(`${process.env.REACT_APP_REDIRECT_DOMAIN}/bone`)}
+										onClick={() => window.open(`https://app.regenphd.com/appointment/bone`)}
 									>
 										Book Scan
 									</Button>

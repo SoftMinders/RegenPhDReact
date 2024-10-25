@@ -99,6 +99,7 @@ const routes = [
         path: "/mai",
         component: Mai,
         className: "mai-layout",
+        service: "mai",
         title: "MAI | Regen PHD",
         description: "Stay Young, Be Strong, Live Forever",
         layout: true,
