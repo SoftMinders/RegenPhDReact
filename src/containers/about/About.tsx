@@ -28,7 +28,7 @@ export const About = (): React.ReactElement => {
 	const heroSplitRef = useRef(null);
 	const secondHeroRef = useRef(null);
 	const boneDensityRef = useRef(null);
-	const testimonialsRef = useRef(null);
+	const testimonialsRef = useRef(null); 
 	const howItWorksRef = useRef(null);
 
 	// Use useInView hook to trigger animations when each section is in view
