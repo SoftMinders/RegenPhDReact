@@ -1,4 +1,5 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
+import axios from 'axios'; // Axios for HTTP requests
 import {Helmet} from "react-helmet";
 import {Navigate, Route, Routes} from "react-router-dom";
 import {BoneHome} from "./containers/bone/BoneHome";
@@ -20,9 +21,7 @@ import {Paul} from "./containers/biography/Paul";
 import {Jon} from "./containers/biography/jon";
 import {PhD} from "./containers/PhD/PhD";
 import {Blog} from "./containers/blog/Blog";
-import {BlogOne} from "./containers/blog/BlogOne";
-import {BlogTwo} from "./containers/blog/BlogTwo";
-import {BlogThree} from "./containers/blog/BlogThree";
+import {InnerBlog} from "./containers/blog/InnerBlog";
 import { RiskAssessment } from "components/risk/RiskAssessment";
 
 
@@ -196,33 +195,6 @@ const routes = [
         pageTitle:"Latest News & Articles"
     },
     {
-        path: "/blog/regen-phd-bone-scanning-test",
-        component: BlogOne,
-        className: "biography-layout",
-        title: "Latest News & Articles | Regen PHD",
-        description: "Stay Young, Be Strong, Live Forever",
-        layout: true,
-        pageTitle:"Latest News & Articles"
-    },
-    {
-        path: "/blog/regen-phd-is-best-dna-tesing-care",
-        component: BlogTwo,
-        className: "biography-layout",
-        title: "Latest News & Articles | Regen PHD",
-        description: "Stay Young, Be Strong, Live Forever",
-        layout: true,
-        pageTitle:"Latest News & Articles"
-    },
-    {
-        path: "/blog/neuro-physical-therapy",
-        component: BlogThree,
-        className: "biography-layout",
-        title: "Latest News & Articles | Regen PHD",
-        description: "Stay Young, Be Strong, Live Forever",
-        layout: true,
-        pageTitle:"Latest News & Articles"
-    },
-    {
         path: "/risk",
         component: RiskAssessment,
         className: "biography-layout",
@@ -231,10 +203,28 @@ const routes = [
         layout: true,
         pageTitle:"Latest News & Articles"
     },
+    
 ];
 
 export const App = (): React.ReactElement => {
-    
+    const [posts, setPosts] = useState<any[]>([]);
+    // Fetch data on component mount
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await axios.get('https://admin.regenphd.com/api/v1/get-all-regenphd-blogs', {
+                    headers: {
+                        'Token': 'TrgG&684#5ghvGFbfd*767hDSr' // Add custom headers here
+                    }
+                });
+                setPosts(response.data); // Set posts with fetched data
+            } catch (error) {
+                console.error(error); // Log error if request fails
+            }
+        };
+
+        fetchData(); // Call fetch function
+    }, []); // Empty dependency array to run only on mount
 
     return (
         <Routes>
@@ -262,6 +252,30 @@ export const App = (): React.ReactElement => {
                             ) : (
                                 <Component />
                             )}
+                        </>
+                    }
+                >
+                </Route>
+            ))}
+            {posts.map( post => (
+                <Route
+                    key={`/blog/${post.slug}`}
+                    path={`/blog/${post.slug}`}
+                    element={
+                        <>
+                            <Helmet>
+                                <title>{post.title}</title>
+                                <link rel="canonical" href={`https://regenphd.com/blog/${post.slug}`} />
+                                <meta name="description" content={post.seo_description} />
+                                <meta property="og:title" content={post.seo_title} />
+                                <meta property="og:description" content={post.seo_description} />
+                                <meta name="twitter:title" content={post.seo_title} />
+                                <meta name="twitter:description" content={post.seo_description} />
+                            </Helmet>
+                            <BoneLayoutDefault service="Blog" className="biography-layout" pageTitle={post.title}>
+                                <InnerBlog />
+                            </BoneLayoutDefault>
+                            
                         </>
                     }
                 >

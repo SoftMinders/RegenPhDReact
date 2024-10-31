@@ -9,27 +9,84 @@
 
 <url>
   <loc>https://regenphd.com/</loc>
-  <lastmod>2024-06-13T11:56:35+00:00</lastmod>
+  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://regenphd.com/bone</loc>
-  <lastmod>2024-06-13T11:56:35+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://regenphd.com/mri/</loc>
-  <lastmod>2024-06-13T11:56:35+00:00</lastmod>
+  <loc>https://regenphd.com/about/</loc>
+  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://regenphd.com/research/</loc>
-  <lastmod>2024-06-13T11:56:35+00:00</lastmod>
+  <loc>https://regenphd.com/phd/</loc>
+  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://regenphd.com/bone/</loc>
+  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://regenphd.com/mai/</loc>
+  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://regenphd.com/dna/</loc>
-  <lastmod>2024-06-13T11:56:35+00:00</lastmod>
+  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://regenphd.com/contact/</loc>
+  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://regenphd.com/blog/regen-phd-bone-scanning-test/</loc>
+  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://regenphd.com/blog/regen-phd-is-best-dna-tesing-care/</loc>
+  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://regenphd.com/biography/</loc>
+  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://regenphd.com/blog/</loc>
+  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://regenphd.com/privacy-policy/</loc>
+  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://regenphd.com/terms-conditions/</loc>
+  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://regenphd.com/research/</loc>
+  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://regenphd.com/biography/prof-paul-yf-lee/</loc>
+  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://regenphd.com/biography/prof-jon-whitehead/</loc>
+  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
