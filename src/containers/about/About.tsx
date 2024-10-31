@@ -78,16 +78,7 @@ export const About = (): React.ReactElement => {
 				<MissionVision />
 			</motion.div>
 
-			<motion.div
-					ref={howItWorksRef}
-                    initial="visible"
-                    animate={isHowItWorksInView ? "visible" : "visible"}
-                    variants={rightToLeft}
-                    transition={transition}
-                >
-                    <Teams />
-                </motion.div>
-
+			<Teams />
 
 			<motion.div
 				ref={testimonialsRef}
