@@ -33,8 +33,8 @@ class Teams extends React.Component {
                                         <React.Fragment>
                                             <Link to="/biography/prof-jon-whitehead">
                                                 <img src={require("../../assets/Images/jon.jpeg")} alt=""/>
-                                                <h2 class="gradient-text2">Prof. Jon Whitehead</h2>
-                                                <p>Professor of Biomedical Biochemistry</p>
+                                                <h2 class="gradient-text2">Dr. Jon Whitehead</h2>
+                                                <p>Senior scientist of Biomedical Biochemistry</p>
                                             </Link>
                                         </React.Fragment>
                                         <ul class="social">
