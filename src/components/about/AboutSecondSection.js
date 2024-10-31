@@ -1,6 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 import {Grid, Stack} from "@mui/material";
+import {Link} from "react-router-dom"
 
 class AboutSecondSection extends React.Component {
     render() {
@@ -24,7 +25,9 @@ class AboutSecondSection extends React.Component {
                                             <h4 className="mt-02"><span
                                                 className="font-bold">Comprehensive</span>  Disease Risk Assessment</h4>
                                             <p className="mb-0 mt-12 font-md font-regular">At Regen PhD, our Comprehensive Disease Risk Assessment utilises cutting-edge technology to evaluate your unique genetic and health profile. Through advanced diagnostics such as eDNA analysis and MAI Scan, we identify potential health risks and predispositions to various diseases. This thorough assessment not only highlights areas of concern but also provides actionable insights to help you take charge of your health. By understanding your risk factors, we can design a personalised prevention plan tailored to your needs, empowering you to make informed decisions and adopt lifestyle changes that promote long-term wellness and vitality.</p>
-                                        	<a href="/" className="gradbtn">Contact Us</a>
+                                        	<React.Fragment>
+                                                <Link to="/contact" className="gradbtn">Contact Us</Link>
+                                            </React.Fragment>
                                         </Stack>
                                     </Grid>
                                 </Grid>

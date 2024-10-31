@@ -5,6 +5,7 @@ import AboutSecondSection from "components/about/AboutSecondSection";
 import Cta from "components/about/Cta";
 import MissionVision from "components/about/MissionVision";
 import Testimonials from "components/about/Testimonials";
+import Teams from "./Teams";
 
 
 import { motion, useInView } from "framer-motion";
@@ -76,6 +77,16 @@ export const About = (): React.ReactElement => {
 			>
 				<MissionVision />
 			</motion.div>
+
+			<motion.div
+					ref={howItWorksRef}
+                    initial="visible"
+                    animate={isHowItWorksInView ? "visible" : "visible"}
+                    variants={rightToLeft}
+                    transition={transition}
+                >
+                    <Teams />
+                </motion.div>
 
 
 			<motion.div
