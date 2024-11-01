@@ -43,7 +43,7 @@ const Pricing = () => {
 									</Stack>
 									<div className="pricing-item-cta text-center mb-8">
 										<Button
-											onClick={() => window.open(`https://app.regenphd.com/appointment/appointment/dna`, "_blank")}
+											onClick={() => window.open(`https://app.regenphd.com/order/dna/`, "_blank")}
 											className="outlined-button blue"
 											size="large"
 										>
@@ -82,7 +82,7 @@ const Pricing = () => {
 									</Stack>
 									<div className="pricing-item-cta text-center mb-8">
 										<Button
-											onClick={() => window.open(`https://app.regenphd.com/appointment/dna`, "_blank")}
+											onClick={() => window.open(`https://app.regenphd.com/order/dna/`, "_blank")}
 											className="outlined-button blue"
 											size="large"
 										>
@@ -122,7 +122,7 @@ const Pricing = () => {
 									</Stack>
 									<div className="pricing-item-cta text-center mb-8">
 										<Button
-											onClick={() => window.open(`https://app.regenphd.com/appointment/dna`, "_blank")}
+											onClick={() => window.open(`https://app.regenphd.com/order/dna/`, "_blank")}
 											className="outlined-button blue"
 											size="large"
 										>
