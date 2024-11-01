@@ -100,7 +100,7 @@ export const About = (): React.ReactElement => {
 				</div>
 			</div>
 
-			<FixedFloatingButtons service="dna" />
+			<FixedFloatingButtons service="bone" />
 		</div>
 	);
 };

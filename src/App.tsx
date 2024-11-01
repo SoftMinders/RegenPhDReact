@@ -79,6 +79,7 @@ const routes = [
     {
         path: "/about",
         component: About,
+        service: "bone",
         className: "about-layout",
         title: "About regenPHD",
         description: "Stay Young, Be Strong, Live Forever",
