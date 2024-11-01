@@ -50,7 +50,7 @@ const HeroSplit = ({ hasBgColor, invertColor, ...props }) => {
 							</Grid>
 							<Grid item xs={12} md={6} className="left-container">
 								<div className="hero-video">
-									<img alt="REMS" src={require("../../../assets/Images/bone/bone-landing-video-img.webp")} />
+									<img alt="Precision Bone Scans" src={require("../../../assets/Images/bone/bone-landing-video-img.webp")} />
 									<video preload="auto" loop autoPlay muted controls={false} playsInline>
 										<source src={require("../../../assets/videos/bone-landing-page.mp4")} type="video/mp4" />
 									</video>

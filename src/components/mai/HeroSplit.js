@@ -25,7 +25,7 @@ const HeroSplit = ({ hasBgColor, invertColor, ...props }) => {
 								</Stack>
 							</Grid>
 							<Grid item xs={12} md={6} className="left-container">
-								<img src={require("../../assets/Images/mai/mai-top.gif")} className="mai-top"/>
+								<img src={require("../../assets/Images/mai/mai-top.gif")} className="mai-top" alt="MAI Motion"/>
 							</Grid>
 						</Grid>
 					</div>

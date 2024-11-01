@@ -126,7 +126,7 @@ export const DNAHome = (): React.ReactElement => {
 				variants={leftToRight}
 				transition={transition}
 			>
-				<News className="illustration-section-01" />
+				<News/>
 			</motion.div>
 			<div className="text-center" style={{ padding: "80px 20px", background: "#F3F5F8" }}>
 				<div style={{ maxWidth: "1000px", margin: "auto" }}>

@@ -11,13 +11,13 @@ class SupportSection extends React.Component {
                             <h2 className="font-medium gradient-text-2 text-center"><span className="font-bold">Supported</span> By</h2>
                             <div className="row pt-4">
                                 <div class="col-sm-4">
-                                    <img src={require('../../assets/Images/mai/ktp.png')} alt=""/>
+                                    <img src={require('../../assets/Images/mai/ktp.png')} alt="Bone density and health scan"/>
                                 </div>
                                 <div class="col-sm-4">
-                                    <img src={require('../../assets/Images/mai/uol.png')} alt=""/>
+                                    <img src={require('../../assets/Images/mai/uol.png')} alt="Musculoskeletal health improvement"/>
                                 </div>
                                 <div class="col-sm-4">
-                                    <img src={require('../../assets/Images/mai/msk.png')} alt=""/>
+                                    <img src={require('../../assets/Images/mai/msk.png')} alt="AI-powered musculoskeletal diagnostics"/>
                                 </div>
                             </div>
                         </div>

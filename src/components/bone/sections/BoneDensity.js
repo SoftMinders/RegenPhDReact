@@ -25,14 +25,14 @@ class BoneDensity extends React.Component {
 								<img
 									className="border"
 									src={Image1}
-									alt="Fragility Score"
+									alt="Personalised medical evaluation"
 									style={{ width: "100%", borderRadius: 10 }}
 								/>
 							</Grid>
 							<Grid className="p-4" item xs={12} md={6}>
 								<Stack style={{ borderRadius: 10 }} direction="row" alignItems="center">
-									<img src={Image2} alt="T-Score" style={{ width: "50%" }} />
-									<img src={Image3} alt="T-Score" style={{ width: "50%" }} />
+									<img src={Image2} alt="Regenerative health services" style={{ width: "50%" }} />
+									<img src={Image3} alt="Genetic-based health planning" style={{ width: "50%" }} />
 								</Stack>
 								<h5 className="font-semibold text-start mt-4" style={{ color: "#454B5E" }}>
 									T-Score

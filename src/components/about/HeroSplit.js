@@ -26,7 +26,7 @@ const HeroSplit = ({ hasBgColor, invertColor, ...props }) => {
 								</Stack>
 							</Grid>
 							<Grid item xs={12} md={6} className="left-container">
-								<img src={require("../../assets/Images/banner/about-banner.jpg")} className="about-top" style={{filter:"drop-shadow(0px 2px 10px #fff)"}}/>
+								<img src={require("../../assets/Images/banner/about-banner.jpg")} className="about-top" style={{filter:"drop-shadow(0px 2px 10px #fff)"}} alt="Personalised health diagnostics"/>
 							</Grid>
 						</Grid>
 					</div>

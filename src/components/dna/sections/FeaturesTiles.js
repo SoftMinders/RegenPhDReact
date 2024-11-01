@@ -15,7 +15,7 @@ class FeaturesTiles extends React.Component {
 									<Grid item xs={12} md={6}>
 										<img
 											style={{ width: "100%" }}
-											alt="In-Depth Bone Analysis"
+											alt="Advanced eDNA testing"
 											src={require("../../../assets/Images/banner/image1.jpg")}
 										/>
 									</Grid>
@@ -43,7 +43,7 @@ class FeaturesTiles extends React.Component {
 									</Grid>
 									<Grid item xs={12} md={6} className="left-container">
 										<img
-											alt="Rapid and precise diagnostics"
+											alt="Comprehensive Disease Risk Assessment"
 											src={require("../../../assets/Images/banner/image-dna2.jpg")}
 											style={{ width: "100%" }}
 										/>
@@ -53,7 +53,7 @@ class FeaturesTiles extends React.Component {
 									<Grid item xs={12} md={6}>
 										<img
 											style={{ width: "100%" }}
-											alt="Proactive Approach"
+											alt="Optimised Fitness and Performance"
 											src={require("../../../assets/Images/dna/dna4.png")}
 										/>
 									</Grid>
@@ -82,7 +82,7 @@ class FeaturesTiles extends React.Component {
 									<Grid item xs={12} md={6} className="left-container">
 										<img
 											style={{ width: "100%" }}
-											alt="Ideal for Diverse range"
+											alt="Tailored health solutions"
 											src={require("../../../assets/Images/banner/dna123.jpg")}
 										/>
 									</Grid>

@@ -28,34 +28,97 @@ import { RiskAssessment } from "components/risk/RiskAssessment";
 
 const routes = [
     {
+        path: "/",
+        component: Home,
+        className: "home-layout",
+        title: "Regen PhD - Advanced Diagnostic Health Clinic | Genetic Health & Well-being Experts",
+        description: "Discover personalised health solutions at Regen PhD, offering advanced diagnostics like eDNA, Bone Scan, and MAI Scan. Led by experts, we design bespoke plans to optimise your health.",
+        layout: true,
+        pageTitle:"",
+        keywords:"Regen PhD, advanced diagnostics, genetic health, eDNA analysis, Bone Scan, MAI Scan, personalised health plans, health optimisation"
+    },
+    {
+        path: "/biography",
+        component: Biography,
+        className: "biography-layout",
+        title: "Meet the Experts | Regen PhD Team Biography",
+        description: "Discover the expertise behind Regen PhD with profiles of Professor Paul Lee, Professor Jon Whitehead, and our dedicated healthcare team.",
+        layout: true,
+        pageTitle:"Biography",
+        keywords:"Regen PhD experts, Professor Paul Lee, Professor Jon Whitehead, health experts, team biography"
+    },
+    {
+        path: "/biography/prof-paul-yf-lee",
+        component: Paul,
+        className: "biography-layout",
+        title: "Professor Paul YF Lee | Leading Health Expert at Regen PhD",
+        description: "Get to know Professor Paul Lee, a distinguished health expert at Regen PhD, dedicated to advanced diagnostic and personalised health solutions.",
+        layout: true,
+        pageTitle:"Prof. Paul YF Lee",
+        keywords:"Professor Paul Lee, Regen PhD, health expert, advanced diagnostics"
+    },
+    {
+        path: "/biography/prof-jon-whitehead",
+        component: Jon,
+        className: "biography-layout",
+        title: "Dr. Jon Whitehead | Neuro and Diagnostic Specialist at Regen PhD",
+        description: "Learn about Dr. Jon Whitehead, a leading specialist in neuro and diagnostic health at Regen PhD, providing cutting-edge insights and care.",
+        layout: true,
+        pageTitle:"Prof. Jon Whitehead",
+        keywords:"Dr. Jon Whitehead, neuro specialist, diagnostic health, Regen PhD"
+    },
+    {
+        path: "/about",
+        component: About,
+        service: "bone",
+        className: "about-layout",
+        title: "About Regen PhD | Leading Diagnostic Health Clinic in the UK",
+        description: "Learn about Regen PhD’s commitment to advanced diagnostic health services, expert care, and personalised health plans led by renowned professors.",
+        layout: true,
+        pageTitle:"Regen PhD, health diagnostics, UK health clinic, advanced diagnostics, personalised care",
+        keywords:"Regen PhD, health diagnostics, UK health clinic, advanced diagnostics, personalised care"
+    },
+    {
         path: "/bone",
         component: BoneHome,
         className: "bone-layout",
         service: "bone",
         layout: true,
-        title: "Bone Scan, Bone Regeneration - Cutting-Edge, Radiation-Free Bone Assessment",
-        description: "Solution to provide a quick and radiation-free assessment of the bone condition in the lumbar vertebrae and femoral neck. Ensuring accurate and efficient bone health evaluation without the risks associated with DEXA.",
-        pageTitle:""
+        title: "#1 Bone Scan Services in UK | Regen PhD Diagnostic Clinic",
+        description: "Discover Regen PhD’s comprehensive Bone Scan services, designed to assess bone health and support personalised health strategies.",
+        pageTitle:"",
+        keywords:"Bone Scan, bone health, Regen PhD, diagnostic services, health assessments"
     },
     {
-        path: "/mri",
-        component: MRIHome,
-        service: "mri",
-        className: "mri-layout",
-        title: "Precision Imaging Unmatched Comfort - Revolutionary Musculoskeletal Assessment",
-        description: "Step into the future of medical imaging with our Open MRI at MSK House. This advanced technology offers unparalleled clarity in diagnosing musculoskeletal conditions, all in a comfortable, open environment. Say goodbye to the discomfort of traditional MRI and experience precision imaging that adapts to your needs.",
+        path: "/mai",
+        component: Mai,
+        className: "mai-layout",
+        service: "mai",
+        title: "Muscle Assessment Imaging (MAI) | Advanced Diagnostics by Regen PhD",
+        description: "Understand your muscle health with MAI Scan at Regen PhD, offering precise imaging for optimal health planning and recovery support.",
         layout: true,
-        pageTitle:""
+        pageTitle:"MAI Scan, Muscle Assessment Imaging, Regen PhD, health diagnostics"
     },
     {
         path: "/dna",
         component: DNAHome,
         service: "dna",
         className: "dna-layout",
-        title: "Advanced, Non-Invasive Genetic Insights - Unlock Your Genetic Health Potential",
-        description: "Discover a cutting-edge, non-invasive solution for assessing your genetic predispositions across a wide range of health areas. Our DNA testing provides a quick and precise analysis of over 300 genetic markers, offering deep insights into your overall well-being, from nutrition and fitness to disease risk.",
+        title: "eDNA Analysis - Advanced, Non-Invasive Genetic Insights | Unlock Your Genetic Health Potential at Regen PhD",
+        description: "Explore eDNA analysis at Regen PhD for unique insights into your genetic health, helping to create a personalised health plan for your needs.",
         layout: true,
-        pageTitle:""
+        pageTitle:"",
+        keywords:"eDNA analysis, genetic health, Regen PhD, personalised health, advanced diagnostics"
+    },
+    {
+        path: "/contact",
+        component: Contact,
+        className: "contact-layout",
+        title: "Contact Regen PhD | Reach Out for Personalised Health Solutions",
+        description: "Get in touch with Regen PhD to learn more about our personalised diagnostic services and health plans tailored to your needs.",
+        layout: true,
+        pageTitle:"",
+        keywords:"contact Regen PhD, personalised health solutions, diagnostic services, contact form"
     },
     {
         path: "/research",
@@ -65,54 +128,18 @@ const routes = [
         title: "Latest Research & Publications in REMS Bone Density scan",
         description: "Solution to provide a quick and radiation-free assessment of the bone condition in the lumbar vertebrae and femoral neck. Ensuring accurate and efficient bone health evaluation without the risks associated with DEXA.",
         layout: true,
-        pageTitle:""
-    },
-    {
-        path: "/",
-        component: Home,
-        className: "home-layout",
-        title: "Stay Young, Be Strong, Live Forever",
-        description: "Stay Young, Be Strong, Live Forever",
-        layout: true,
-        pageTitle:""
-    },
-    {
-        path: "/about",
-        component: About,
-        service: "bone",
-        className: "about-layout",
-        title: "About regenPHD",
-        description: "Stay Young, Be Strong, Live Forever",
-        layout: true,
-        pageTitle:""
+        pageTitle:"",
+        keywords:""
     },
     {
         path: "/404",
         component: Fourzerofour,
         className: "layout-404",
         title: "The Page You are Requesting is Not Found",
-        description: "Stay Young, Be Strong, Live Forever",
+        description: "Stay Young, Be Strong, Live Forever | Regen PhD",
         layout: true,
-        pageTitle:""
-    },
-    {
-        path: "/contact",
-        component: Contact,
-        className: "contact-layout",
-        title: "Contact Us | Regen PHD",
-        description: "Stay Young, Be Strong, Live Forever",
-        layout: true,
-        pageTitle:""
-    },
-    {
-        path: "/mai",
-        component: Mai,
-        className: "mai-layout",
-        service: "mai",
-        title: "MAI | Regen PHD",
-        description: "Stay Young, Be Strong, Live Forever",
-        layout: true,
-        pageTitle:""
+        pageTitle:"",
+        keywords:""
     },
     {
         path: "/areas",
@@ -121,7 +148,8 @@ const routes = [
         title: "Areas We Serve | Regen PHD",
         description: "Stay Young, Be Strong, Live Forever",
         layout: true,
-        pageTitle:""
+        pageTitle:"",
+        keywords:""
     },
     {
         path: "/areas/birmingham",
@@ -130,7 +158,8 @@ const routes = [
         title: "Birmingham | Regen PHD",
         description: "Stay Young, Be Strong, Live Forever",
         layout: true,
-        pageTitle:"Birmingham"
+        pageTitle:"Birmingham",
+        keywords:""
     },
     {
         path: "/privacy-policy",
@@ -139,7 +168,8 @@ const routes = [
         title: "Privacy Policy | Regen PHD",
         description: "Stay Young, Be Strong, Live Forever",
         layout: true,
-        pageTitle:"Privacy Policy"
+        pageTitle:"Privacy Policy",
+        keywords:""
     },
     {
         path: "/terms-conditions",
@@ -148,62 +178,29 @@ const routes = [
         title: "Terms & Conditions | Regen PHD",
         description: "Stay Young, Be Strong, Live Forever",
         layout: true,
-        pageTitle:"Terms & Conditions"
-    },
-    {
-        path: "/biography",
-        component: Biography,
-        className: "biography-layout",
-        title: "Biography | Regen PHD",
-        description: "Stay Young, Be Strong, Live Forever",
-        layout: true,
-        pageTitle:"Biography"
-    },
-    {
-        path: "/biography/prof-paul-yf-lee",
-        component: Paul,
-        className: "biography-layout",
-        title: "Biography | Regen PHD",
-        description: "Stay Young, Be Strong, Live Forever",
-        layout: true,
-        pageTitle:"Prof. Paul YF Lee"
-    },
-    {
-        path: "/biography/prof-jon-whitehead",
-        component: Jon,
-        className: "biography-layout",
-        title: "Biography | Regen PHD",
-        description: "Stay Young, Be Strong, Live Forever",
-        layout: true,
-        pageTitle:"Prof. Jon Whitehead"
+        pageTitle:"Terms & Conditions",
+        keywords:""
     },
     {
         path: "/phd",
         component: PhD,
         className: "home-layout",
-        title: "Personal Health Design | Regen PHD",
-        description: "Stay Young, Be Strong, Live Forever",
+        title: "Personalised Health Design (PhD) | Tailored Health Solutions by Regen PhD",
+        description: "Discover Regen PhD’s Personalised Health Design, offering customised health strategies based on advanced diagnostics like eDNA, MAI Scan, and Bone Scan. Achieve your optimal health through tailored plans and expert guidance.",
         layout: true,
-        pageTitle:"Personal Health Design"
+        pageTitle:"Personalised Health Design, Regen PhD, health strategy, eDNA analysis, Bone Scan, MAI Scan, customised health solutions, health optimisation",
+        keywords:"Personalised Health Design, Regen PhD, health strategy, eDNA analysis, Bone Scan, MAI Scan, customised health solutions, health optimisation"
     },
     {
         path: "/blog",
         component: Blog,
         className: "home-layout",
-        title: "Latest News & Articles | Regen PHD",
-        description: "Stay Young, Be Strong, Live Forever",
+        title: "Regen PhD Blog | Latest Insights in Advanced Health and Diagnostics",
+        description: "Stay updated with the latest health tips, advancements in diagnostics, and expert insights on the Regen PhD blog.",
         layout: true,
-        pageTitle:"Latest News & Articles"
-    },
-    {
-        path: "/risk",
-        component: RiskAssessment,
-        className: "biography-layout",
-        title: "Latest News & Articles | Regen PHD",
-        description: "Stay Young, Be Strong, Live Forever",
-        layout: true,
-        pageTitle:"Latest News & Articles"
-    },
+        pageTitle:"Latest News & Articles",
+        keywords:"Regen PhD blog, health insights, diagnostic advancements, expert health tips"
+    }
     
 ];
 
@@ -227,9 +224,55 @@ export const App = (): React.ReactElement => {
         fetchData(); // Call fetch function
     }, []); // Empty dependency array to run only on mount
 
+    const logoImage = require("./assets/Images/logo.png");
+    // Generate web pages array based on routes
+    const webPages = routes.map(({ path, title, description }) => ({
+        "@type": "WebPage",
+        "@id": `https://maimotion.com${path}`, // Construct dynamic URL
+        "name": title || "Regen PhD",         // Fallback for missing title
+        "description": description || "Stay Young, Be Strong, Live Forever" // Fallback for description
+    }));
+    // Main schema object
+    const schemaMarkupWebsite = {
+        "@context": "https://schema.org",
+        "@type": "Website",
+        "name": "Regen PhD",
+        "image": logoImage,
+        "description": "Discover personalised health solutions at Regen PhD, offering advanced diagnostics like eDNA, Bone Scan, and MAI Scan. Led by experts, we design bespoke plans to optimise your health.",
+        "hasPart": webPages, // Add the dynamically generated webPages array
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+44 33333 55848",
+            "contactType": "Customer Service",
+            "areaServed": "GB",
+            "availableLanguage": ["English"]
+        }
+    };
+    // Rating schema object
+    const schemaMarkupRating = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Regen PhD",
+        "url": "https://regenphd.com",
+        "logo": logoImage,
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "3247",
+            "bestRating": "5",
+            "worstRating": "4"
+        },
+        "sameAs": [
+            "https://www.facebook.com/RegenPhD",
+            "https://www.instagram.com/RegenPhD",
+            "https://www.linkedin.com/company/RegenPhD"
+        ]
+    };
+
+      
     return (
         <Routes>
-            {routes.map(({ path, component: Component, title, description, className, layout, service, pageTitle }, index) => (
+            {routes.map(({ path, component: Component, title, description, className, layout, service, pageTitle, keywords }, index) => (
                 <Route
                     key={index}
                     path={path}
@@ -238,12 +281,30 @@ export const App = (): React.ReactElement => {
                             {title ? (
                                 <Helmet>
                                     <title>{title}</title>
+                                    <meta name="description" content={description} />
                                     <link rel="canonical" href={`https://regenphd.com${path}`} />
-                                    <meta name={description} content={description} />
+                                    <meta name="keywords" content={keywords}></meta>
+                                    <meta name="robots" content="index, follow"></meta>
+                                    <meta name="author" content="Regen PhD"></meta>
+
                                     <meta property="og:title" content={title} />
                                     <meta property="og:description" content={description} />
+                                    <meta property="og:url" content={`https://regenphd.com${path}`}></meta>
+                                    <meta property="og:image" content={require("./assets/Images/logo.png")}></meta>
+                                    <meta property="og:type" content="website"></meta>
+                                    <meta property="og:site_name" content="Regen PhD"></meta>
+
+                                    <meta name="twitter:card" content="summary_large_image"></meta>
                                     <meta name="twitter:title" content={title} />
                                     <meta name="twitter:description" content={description} />
+                                    <meta name="twitter:image" content={require("./assets/Images/logo.png")}></meta>
+                                    <meta name="twitter:site" content="@RegenPhD"></meta>
+                                    <script type="application/ld+json">
+                                        {JSON.stringify(schemaMarkupWebsite)}
+                                    </script>
+                                    <script type="application/ld+json">
+                                        {JSON.stringify(schemaMarkupRating)}
+                                    </script>
                                 </Helmet>
                             ) : null}
                             {layout ? (
@@ -265,13 +326,25 @@ export const App = (): React.ReactElement => {
                     element={
                         <>
                             <Helmet>
-                                <title>{post.title}</title>
+                                <title>{post.seo_title}</title>
                                 <link rel="canonical" href={`https://regenphd.com/blog/${post.slug}`} />
                                 <meta name="description" content={post.seo_description} />
+                                <meta name="keywords" content={post.seo_keywords}></meta>
+                                <meta name="robots" content="index, follow"></meta>
+                                <meta name="author" content="Regen PhD"></meta>
+
                                 <meta property="og:title" content={post.seo_title} />
                                 <meta property="og:description" content={post.seo_description} />
+                                <meta property="og:url" content={`https://regenphd.com/blog/${post.slug}`}></meta>
+                                <meta property="og:image" content={require("./assets/Images/logo.png")}></meta>
+                                <meta property="og:type" content="website"></meta>
+                                <meta property="og:site_name" content="Regen PhD"></meta>
+                                
+                                <meta name="twitter:card" content="summary_large_image"></meta>
                                 <meta name="twitter:title" content={post.seo_title} />
                                 <meta name="twitter:description" content={post.seo_description} />
+                                <meta name="twitter:image" content={post.featured_image}></meta>
+                                <meta name="twitter:site" content="@RegenPhD"></meta>
                             </Helmet>
                             <BoneLayoutDefault service="Blog" className="biography-layout" pageTitle={post.title}>
                                 <InnerBlog />
