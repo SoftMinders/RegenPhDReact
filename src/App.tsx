@@ -263,9 +263,9 @@ export const App = (): React.ReactElement => {
             "worstRating": "4"
         },
         "sameAs": [
-            "https://www.facebook.com/RegenPhD",
-            "https://www.instagram.com/RegenPhD",
-            "https://www.linkedin.com/company/RegenPhD"
+            "https://x.com/PhdRegen54232",
+            "https://www.instagram.com/regenphduk/",
+            "https://www.linkedin.com/company/regenphd/"
         ]
     };
 
