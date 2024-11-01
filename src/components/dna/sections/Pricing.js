@@ -53,7 +53,7 @@ const Pricing = () => {
 								</div>
 							</Grid>
 							<Grid item xs={12} md={6} className="tiles-item-mai reveal-from-bottom dark">
-								<div className="tiles-item-inner has-shadow">
+								<div className="tiles-item-inner has-shadow" style={{position: "relative"}}>
 									<div className="price-ribbon-wrapper">
 										<div className="ribbon font-medium" style={{backgroundColor: "#BB43F5"}}>Recommended</div>
 									</div>
