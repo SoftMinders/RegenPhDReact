@@ -12,16 +12,16 @@ const FAQ = () => {
 					<SectionHeader data={{ title: "Frequently Asked Questions" }} className="center-content" />
 					<Accordion>
 						<AccordionItem title="What services does Regen PhD offer?">
-                        Regen PhD provides advanced diagnostic services, including eDNA analysis, MAI Scan, and Bone Scan, designed to assess your unique health profile and create personalized wellness plans.
+                        Regen PhD provides advanced diagnostic services, including eDNA analysis, MAI Scan, and Bone Scan, designed to assess your unique health profile and create personalised wellness plans.
 						</AccordionItem>
 						<AccordionItem title="What is eDNA analysis, and how can it benefit me?">
-                        eDNA analysis examines your genetic material to identify predispositions to certain health conditions, allowing for a more targeted approach to preventive care and personalized health plans.
+                        eDNA analysis examines your genetic material to identify predispositions to certain health conditions, allowing for a more targeted approach to preventive care and personalised health plans.
 						</AccordionItem>
 						<AccordionItem title="How can I book an appointment at Regen PhD?">
                         You can easily schedule an appointment by visiting our website, regenphd.com, or by contacting our team via phone or email. We are happy to assist you in finding a time that works for you.
 						</AccordionItem>
 						<AccordionItem title="What should I expect during my first consultation?">
-                        During your first consultation, our specialists will review your medical history, discuss your health goals, and recommend appropriate diagnostic tests. This helps us create a personalized plan tailored to your needs.
+                        During your first consultation, our specialists will review your medical history, discuss your health goals, and recommend appropriate diagnostic tests. This helps us create a personalised plan tailored to your needs.
 						</AccordionItem>
 						<AccordionItem title="How often should I undergo retesting?">
                         The frequency of retesting depends on your specific health goals and any conditions being monitored. We generally recommend retesting every 6-12 months to track progress and adjust your health plan accordingly.
