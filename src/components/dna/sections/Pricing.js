@@ -16,7 +16,7 @@ const Pricing = () => {
 								<div className="tiles-item-inner has-shadow">
 									<Stack spacing={4} className="pricing-item-content">
 										<div className="pricing-item-header mb-24">
-										<div class="text-center mt-24"><span class="pricing-item-price-amount h1 font-semibold">£280 <small>/Month</small></span></div>
+										<div class="text-center mt-24"><span class="pricing-item-price-amount h1 font-semibold">£350 <small>/Month</small></span></div>
 											<div className="pricing-item-price ">
 												<span className="pricing-item-price-amount font-medium h3">
 													DNA Health Report
@@ -54,9 +54,12 @@ const Pricing = () => {
 							</Grid>
 							<Grid item xs={12} md={6} className="tiles-item-mai reveal-from-bottom dark">
 								<div className="tiles-item-inner has-shadow">
+									<div className="price-ribbon-wrapper">
+										<div className="ribbon font-medium" style={{backgroundColor: "#BB43F5"}}>Recommended</div>
+									</div>
 									<Stack spacing={4} className="pricing-item-content">
 										<div className="pricing-item-header mb-24">
-											<div class="text-center mt-24"><span class="pricing-item-price-amount h1 font-semibold">£350 <small>/Month</small></span></div>
+											<div class="text-center mt-24"><span class="pricing-item-price-amount h1 font-semibold">£550 <small>/Month</small></span></div>
 											<div className="pricing-item-price ">
 												<span className="pricing-item-price-amount font-medium h3">
 													DNA Health with Epigenetics <br />
