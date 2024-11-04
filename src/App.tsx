@@ -263,6 +263,7 @@ export const App = (): React.ReactElement => {
             "worstRating": "4"
         },
         "sameAs": [
+            "https://www.facebook.com/regenphduk",
             "https://x.com/PhdRegen54232",
             "https://www.instagram.com/regenphduk/",
             "https://www.linkedin.com/company/regenphd/"
