@@ -18,7 +18,7 @@ const FooterSocial = ({
     >
       <ul className="list-reset">
         <li>
-          <a href="https://www.facebook.com/regenphduk">
+          <a href="https://www.facebook.com/regenphduk" target="_Blank" rel="noreferrer">
             <svg
               width="16"
               height="16"
@@ -31,7 +31,7 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://x.com/PhdRegen54232">
+          <a href="https://x.com/PhdRegen54232" target="_Blank" rel="noreferrer">
             <svg
               width="16"
               height="16"
@@ -44,7 +44,7 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/regenphduk/">
+          <a href="https://www.instagram.com/regenphduk/" target="_Blank" rel="noreferrer">
             <svg
               width="16"
               height="16"
@@ -62,16 +62,22 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/company/regenphd/">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg">
-              <title>Linkedin</title>
-              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect>
-              <circle cx="4" cy="4" r="2"></circle>
-            </svg>
+          <a href="https://www.linkedin.com/company/regenphd/" target="_Blank" rel="noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" 
+          width="16" 
+          height="16" 
+          viewBox="0 0 24 24" 
+          fill="none" 
+          stroke="currentColor" 
+          stroke-width="0" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          class="feather feather-linkedin">
+            <title>Linkedin</title>
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
           </a>
         </li>
       </ul>
