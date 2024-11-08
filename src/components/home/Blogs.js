@@ -57,7 +57,7 @@ const Blogs = () => {
 						/> 
 						<div className={classNames("tiles-wrap")}>
 						<React.Fragment>
-						{posts.map(post => ( 
+						{posts.slice(0, 3).map(post => ( 
 							<div className="tiles-item reveal-from-bottom">
 								<div className="tiles-item-inner has-shadow">
 									<figure className="news-item-image m-0">
