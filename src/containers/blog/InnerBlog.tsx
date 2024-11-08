@@ -39,7 +39,7 @@ export const InnerBlog = (): React.ReactElement => {
                     }
                 });
 
-                if (!response.data || (Array.isArray(response.data) && response.data.length === 0) || (typeof response.data === 'object' && Object.keys(response.data).length === 0)) {
+                if (!response.data || (Array.isArray(response.data) && response.data.length === 0)) {
                     // Redirect to 404 page if data is blank
                     navigate('/404');
                 } else {
