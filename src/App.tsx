@@ -24,6 +24,7 @@ import {Motion} from "./containers/Motion/Motion";
 import {Blog} from "./containers/blog/Blog";
 import {InnerBlog} from "./containers/blog/InnerBlog";
 import { RiskAssessment } from "components/risk/RiskAssessment";
+import { RegenEmsFaq } from "containers/RegenEms/RegenEmsFaq";
 
 
 
@@ -185,6 +186,16 @@ const routes = [
     {
         path: "/phd",
         component: PhD,
+        className: "home-layout",
+        title: "Personalised Health Design (PhD) | Tailored Health Solutions by Regen PhD",
+        description: "Discover Regen PhD’s Personalised Health Design, offering customised health strategies based on advanced diagnostics like eDNA, MAI Scan, and Bone Scan. Achieve your optimal health through tailored plans and expert guidance.",
+        layout: true,
+        pageTitle:"Personalised Health Design, Regen PhD, health strategy, eDNA analysis, Bone Scan, MAI Scan, customised health solutions, health optimisation",
+        keywords:"Personalised Health Design, Regen PhD, health strategy, eDNA analysis, Bone Scan, MAI Scan, customised health solutions, health optimisation"
+    },
+    {
+        path: "/regenems/faq",
+        component: RegenEmsFaq,
         className: "home-layout",
         title: "Personalised Health Design (PhD) | Tailored Health Solutions by Regen PhD",
         description: "Discover Regen PhD’s Personalised Health Design, offering customised health strategies based on advanced diagnostics like eDNA, MAI Scan, and Bone Scan. Achieve your optimal health through tailored plans and expert guidance.",

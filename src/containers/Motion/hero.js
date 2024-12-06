@@ -20,9 +20,12 @@ const hero = ({hasBgColor, invertColor, ...props}) => {
 								<p className="mt-0 mb-32 font-md font-regular text-white hide-mobile">
 								Elevate your wellness journey with a personalised, science-backed wellness experience. Our state-of-the-art gym integrates advanced health diagnostics, including bone density scanning and motion analysis, with tailored fitness programs. Relax in our recovery zones, designed to optimise your hormonal balance, cognitive function, and stress resilience.
 								</p>
+								<div>
+									<a className="about-top-btn button" href="https://app.maimotion.com/register/" target="_Blank" style={{"padding":"15px 30px 15px 30px","float":"none"}}>Register Now</a>
+								</div>
                             </Grid>
                             <Grid className="home-hero-image col-md-5 mx-auto">
-                                <img src={require("../../assets/Images/phd-top.png")} alt="Regen Phd" style={{maxWidth:"300px",margin:"0 auto",display:"block"}}/>
+                                <img src={require("../../assets/Images/motion.png")} alt="Regen Phd" style={{maxWidth:"300px",margin:"0 auto",display:"block"}}/>
                                 <p className="mt-0 mb-32 font-md font-regular text-white hide-desktop">
 								Elevate your wellness journey with a personalised, science-backed wellness experience. Our state-of-the-art gym integrates advanced health diagnostics, including bone density scanning and motion analysis, with tailored fitness programs. Relax in our recovery zones, designed to optimise your hormonal balance, cognitive function, and stress resilience.
 								</p>

@@ -49,6 +49,11 @@ const FooterNav = ({ className, ...props }) => {
 					</Link>
 				</li>
 				<li>
+					<Link to="/regenems/faq" className="text-white">
+						Regen EMS FAQ
+					</Link>
+				</li>
+				<li>
 					<a href="https://regenman.com"
 					   target="_blank"
 					   rel="noreferrer" className="text-white">
