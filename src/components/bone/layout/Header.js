@@ -4,8 +4,7 @@ import {Link} from "react-router-dom";
 import Logo from "./partials/Logo";
 import {Button} from "@mui/material";
 import { useLocation } from 'react-router-dom';
-
-
+import $ from "jquery";
 
 const Header = ({ className, navPosition, hideNav, bottomOuterDivider, bottomDivider, active,service, ...props }) => {
 	const location = useLocation()
@@ -29,6 +28,15 @@ const Header = ({ className, navPosition, hideNav, bottomOuterDivider, bottomDiv
 		};
 	}, [active]);
 
+	useEffect(() => {
+		$('nav li').hover(function(){
+			$(this).find('.dropdown').show();
+		},function(){
+			$(this).find('.dropdown').hide();
+		});
+		
+	}, []);
+
 	const openMenu = () => {
 		document.body.classList.add("off-nav-is-active");
 		if (nav.current) {
@@ -36,7 +44,6 @@ const Header = ({ className, navPosition, hideNav, bottomOuterDivider, bottomDiv
 		}
 		setIsActive(true);
 	};
-
 	const closeMenu = () => {
 		document.body.classList.remove("off-nav-is-active");
 		if (nav.current) {
@@ -44,20 +51,17 @@ const Header = ({ className, navPosition, hideNav, bottomOuterDivider, bottomDiv
 		}
 		setIsActive(false);
 	};
-
 	const keyPress = (e) => {
 		if (isActive && e.keyCode === 27) {
 			closeMenu();
 		}
 	};
-
 	const clickOutside = (e) => {
 		if (!nav.current || !isActive || nav.current.contains(e.target) || e.target === hamburger.current) {
 			return;
 		}
 		closeMenu();
 	};
-
 	const handleScroll = () => {
 		if (window.innerWidth > 820) {
 			if (window.scrollY > 50) {
@@ -67,7 +71,6 @@ const Header = ({ className, navPosition, hideNav, bottomOuterDivider, bottomDiv
 			}
 		}
 	};
-
 	const classes = classNames(
 		"site-header",
 		bottomOuterDivider && "has-bottom-divider",
@@ -98,6 +101,11 @@ const Header = ({ className, navPosition, hideNav, bottomOuterDivider, bottomDiv
 												to="/about"
 											>
 												About
+												<ul className="dropdown">
+													<li><Link to="">Our Story</Link></li>
+													<li><Link to="/scientific-advisory-committee">Scientific Advisory Committee</Link></li>
+													<li><Link to="">Trustee</Link></li>
+												</ul>
 											</Link>
 										</li>
 										<li>

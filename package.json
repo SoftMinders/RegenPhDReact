@@ -11,6 +11,7 @@
     "framer-motion": "^11.3.30",
     "html2canvas": "^1.4.1",
     "html2pdf.js": "^0.10.1",
+    "jquery": "^3.7.1",
     "modern-react-qr-reader": "^1.0.12",
     "prop-types": "^15.8.1",
     "react-facebook-login": "^4.1.1",
