@@ -101,11 +101,11 @@ const Header = ({ className, navPosition, hideNav, bottomOuterDivider, bottomDiv
 												to="/about"
 											>
 												About
-												<ul className="dropdown">
+												{/*<ul className="dropdown">
 													<li><Link to="">Our Story</Link></li>
 													<li><Link to="/scientific-advisory-committee">Scientific Advisory Committee</Link></li>
 													<li><Link to="">Trustee</Link></li>
-												</ul>
+												</ul>*/}
 											</Link>
 										</li>
 										<li>
