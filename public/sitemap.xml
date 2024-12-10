@@ -1,124 +1,207 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>https://regenphd.com/</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <changefreq>Daily</changefreq>
-  <priority>1.00</priority>
+<loc>https://regenphd.com/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>1.00</priority>
+<changefreq>Daily</changefreq>
 </url>
 <url>
-  <loc>https://regenphd.com/about/</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <changefreq>Daily</changefreq>
-  <priority>0.80</priority>
+<loc>https://regenphd.com/about/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.80</priority>
+<changefreq>Daily</changefreq>
 </url>
 <url>
-  <loc>https://regenphd.com/phd/</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <changefreq>Daily</changefreq>
-  <priority>0.80</priority>
+<loc>https://regenphd.com/phd/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.80</priority>
+<changefreq>Daily</changefreq>
 </url>
 <url>
-  <loc>https://regenphd.com/bone/</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <changefreq>Daily</changefreq>
-  <priority>0.80</priority>
+<loc>https://regenphd.com/bone/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.80</priority>
+<changefreq>Daily</changefreq>
 </url>
 <url>
-  <loc>https://regenphd.com/mai/</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://regenphd.com/mai/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.80</priority>
+<changefreq>Daily</changefreq>
 </url>
 <url>
-  <loc>https://regenphd.com/dna/</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <changefreq>Daily</changefreq>
-  <priority>0.80</priority>
+<loc>https://regenphd.com/dna/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.80</priority>
+<changefreq>Daily</changefreq>
 </url>
 <url>
-  <loc>https://regenphd.com/contact/</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <changefreq>Daily</changefreq>
-  <priority>0.80</priority>
+<loc>https://regenphd.com/contact/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.80</priority>
+<changefreq>Daily</changefreq>
 </url>
 <url>
-  <loc>https://regenphd.com/privacy-policy/</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <changefreq>Daily</changefreq>
-  <priority>0.80</priority>
+<loc>https://regenphd.com/blog/bone-density-scanner-cost/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.80</priority>
+<changefreq>Daily</changefreq>
 </url>
 <url>
-  <loc>https://regenphd.com/terms-conditions/</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <changefreq>Daily</changefreq>
-  <priority>0.80</priority>
+<loc>https://regenphd.com/blog/best-genetic-test-for-health/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.80</priority>
+<changefreq>Daily</changefreq>
 </url>
 <url>
-  <loc>https://regenphd.com/research/</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <changefreq>Daily</changefreq>
-  <priority>0.64</priority>
+<loc>https://regenphd.com/blog/motion-analysis-system/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.80</priority>
+<changefreq>Daily</changefreq>
 </url>
 <url>
-  <loc>https://regenphd.com/biography/prof-paul-yf-lee/</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <changefreq>Daily</changefreq>
-  <priority>0.64</priority>
+<loc>https://regenphd.com/blog/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.80</priority>
+<changefreq>Daily</changefreq>
 </url>
 <url>
-  <loc>https://regenphd.com/biography/</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <changefreq>Daily</changefreq>
-  <priority>0.80</priority>
+<loc>https://regenphd.com/biography/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.80</priority>
+<changefreq>Daily</changefreq>
 </url>
 <url>
-  <loc>https://regenphd.com/biography/prof-jon-whitehead/</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <changefreq>Daily</changefreq>
-  <priority>0.64</priority>
+<loc>https://regenphd.com/regenems/faq/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.80</priority>
+<changefreq>Daily</changefreq>
 </url>
 <url>
-  <loc>https://regenphd.com/blog/</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <changefreq>Daily</changefreq>
-  <priority>0.80</priority>
+<loc>https://regenphd.com/privacy-policy/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.80</priority>
+<changefreq>Daily</changefreq>
 </url>
 <url>
-  <loc>https://regenphd.com/blog/regen-phd-bone-scanning-test/</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <changefreq>Daily</changefreq>
-  <priority>0.80</priority>
+<loc>https://regenphd.com/terms-conditions/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.80</priority>
+<changefreq>Daily</changefreq>
 </url>
 <url>
-  <loc>https://regenphd.com/blog/regen-phd-is-best-dna-tesing-care/</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <changefreq>Daily</changefreq>
-  <priority>0.80</priority>
+<loc>https://regenphd.com/biography/prof-paul-yf-lee/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.64</priority>
+<changefreq>Daily</changefreq>
 </url>
 <url>
-  <loc>https://regenphd.com/blog/genetic-screening-tests</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <changefreq>Daily</changefreq>
-  <priority>0.80</priority>
+<loc>https://regenphd.com/biography/prof-jon-whitehead/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.64</priority>
+<changefreq>Daily</changefreq>
 </url>
 <url>
-  <loc>https://regenphd.com/blog/bone-density-scanner</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <changefreq>Daily</changefreq>
-  <priority>0.80</priority>
+<loc>https://regenphd.com/blog/musculoskeletal-screening-tests/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.64</priority>
+<changefreq>Daily</changefreq>
 </url>
 <url>
-  <loc>https://regenphd.com/blog/3d-motion-analysis</loc>
-  <lastmod>2024-10-31T05:17:21+00:00</lastmod>
-  <changefreq>Daily</changefreq>
-  <priority>0.80</priority>
+<loc>https://regenphd.com/blog/osteo-bone-density-scanner/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.64</priority>
+<changefreq>Daily</changefreq>
 </url>
-
-
+<url>
+<loc>https://regenphd.com/blog/dna-testing-services/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.64</priority>
+<changefreq>Daily</changefreq>
+</url>
+<url>
+<loc>https://regenphd.com/blog/muscular-system-treatment/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.64</priority>
+<changefreq>Daily</changefreq>
+</url>
+<url>
+<loc>https://regenphd.com/blog/best-dna-test-for-health/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.64</priority>
+<changefreq>Daily</changefreq>
+</url>
+<url>
+<loc>https://regenphd.com/blog/dexa-scan-for-bone-density/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.64</priority>
+<changefreq>Daily</changefreq>
+</url>
+<url>
+<loc>https://regenphd.com/blog/motion-analysis-laboratory/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.64</priority>
+<changefreq>Daily</changefreq>
+</url>
+<url>
+<loc>https://regenphd.com/blog/genetic-analysis-test/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.64</priority>
+<changefreq>Daily</changefreq>
+</url>
+<url>
+<loc>https://regenphd.com/blog/dexa-scan-machine/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.64</priority>
+<changefreq>Daily</changefreq>
+</url>
+<url>
+<loc>https://regenphd.com/blog/3d-motion-analysis/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.64</priority>
+<changefreq>Daily</changefreq>
+</url>
+<url>
+<loc>https://regenphd.com/blog/bone-density-scanner/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.64</priority>
+<changefreq>Daily</changefreq>
+</url>
+<url>
+<loc>https://regenphd.com/blog/genetic-screening-tests/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.64</priority>
+<changefreq>Daily</changefreq>
+</url>
+<url>
+<loc>https://regenphd.com/blog/best-dna-tesing-care/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.64</priority>
+<changefreq>Daily</changefreq>
+</url>
+<url>
+<loc>https://regenphd.com/blog/bone-scanning-test/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.64</priority>
+<changefreq>Daily</changefreq>
+</url>
+<url>
+<loc>https://regenphd.com/research/</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.64</priority>
+<changefreq>Daily</changefreq>
+</url>
+<url>
+<loc>https://regenphd.com/blog/regen-phd-bone-scanning-test</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.51</priority>
+<changefreq>Daily</changefreq>
+</url>
+<url>
+<loc>https://regenphd.com/blog/regen-phd-is-best-dna-tesing-care</loc>
+<lastmod>2024-12-10T21:50:51+00:00</lastmod>
+<priority>0.51</priority>
+<changefreq>Daily</changefreq>
+</url>
 </urlset>
