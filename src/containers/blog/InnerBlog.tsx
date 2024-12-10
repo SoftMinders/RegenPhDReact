@@ -25,7 +25,11 @@ export const InnerBlog = (): React.ReactElement => {
     const [posts, setPosts] = useState<any[]>([]);
     const location = useLocation(); // Get the location object
     const pathSegments = location.pathname.split('/'); // Split the pathname into segments
-    const lastSegment = pathSegments[pathSegments.length - 1];
+    var lastSegment = pathSegments[pathSegments.length - 1];
+    if(lastSegment == "")
+        lastSegment = pathSegments[pathSegments.length - 2];
+
+    console.log(lastSegment);
     const singleurl = 'https://admin.regenphd.com/api/v1/get-single-regenphd-blog/' + lastSegment;
 
     const navigate = useNavigate();
@@ -41,13 +45,13 @@ export const InnerBlog = (): React.ReactElement => {
 
                 if (!response.data || (Array.isArray(response.data) && response.data.length === 0)) {
                     // Redirect to 404 page if data is blank
-                    navigate('/404');
+                    //navigate('/404');
                 } else {
                     setPosts(response.data); // Set posts with fetched data
                 }
             } catch (error) {
                 console.error(error); // Log error if request fails
-                navigate('/404'); // Redirect to 404 page in case of error
+                //navigate('/404'); // Redirect to 404 page in case of error
             }
         };
 
