@@ -388,6 +388,7 @@ export const App = (): React.ReactElement => {
                 >
                 </Route>
             ))}
+            <Route path="/mri" element={<Navigate to="/mai" replace />} />
             <Route path="*" element={<Navigate to="/404" replace />} />
         </Routes>
     );
