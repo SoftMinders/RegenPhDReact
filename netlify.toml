@@ -7,5 +7,5 @@ status = 200
 command = "npm run build"
 publish = "build"
 
-[[functions]]
+[functions]
 directory = "netlify/functions"
