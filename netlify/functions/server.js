@@ -2,7 +2,7 @@ const serverless = require('serverless-http');
 const express = require('express');
 const React = require('react');
 const { renderToString } = require('react-dom/server');
-const App = require('../src/App').default;
+import App from '../../src/App'
 
 const app = express();
 
