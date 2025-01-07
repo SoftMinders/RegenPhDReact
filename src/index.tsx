@@ -1,6 +1,6 @@
 import React from "react";
-import {createRoot} from "react-dom/client";
-import {App} from "./App";
+import {createRoot,hydrateRoot} from "react-dom/client";
+import App from "./App";
 import {BrowserRouter} from "react-router-dom";
 import {Spin} from "antd";
 import {Spinner} from "react-bootstrap";
@@ -20,7 +20,25 @@ Spin.setDefaultIndicator(<Spinner />);
 const root = createRoot(container);
 // axios.defaults.headers.common["Authorization"] = cookies.get("token") ? `Bearer ${cookies.get("token")}` : false;
 
-root.render(
+if (container.hasChildNodes()) {
+    hydrateRoot(container, 
+        <BrowserRouter>
+            <AuthProvider>
+            	<App />
+			</AuthProvider>
+        </BrowserRouter>
+    );
+} else {
+    createRoot(container).render(
+        <BrowserRouter>
+			<AuthProvider>
+            	<App />
+			</AuthProvider>
+        </BrowserRouter>
+    );
+}
+
+/*root.render(
 	<React.StrictMode>
 		<BrowserRouter>
 			<AuthProvider>
@@ -28,4 +46,4 @@ root.render(
 			</AuthProvider>
 		</BrowserRouter>
 	</React.StrictMode>,
-);
+);*/

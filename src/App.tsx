@@ -236,7 +236,7 @@ const routes = [
     
 ];
 
-export const App = (): React.ReactElement => {
+const App = (): React.ReactElement => {
     const [posts, setPosts] = useState<any[]>([]);
     // Fetch data on component mount
     useEffect(() => {
@@ -393,3 +393,4 @@ export const App = (): React.ReactElement => {
         </Routes>
     );
 };
+export default App;
