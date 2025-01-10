@@ -315,7 +315,9 @@ const App = (): React.ReactElement => {
                                 <Helmet>
                                     <title>{title}</title>
                                     <meta name="description" content={description} />
+                                    {path == "/blog/:slug" ? "" : (
                                     <link rel="canonical" href={`https://regenphd.com${path}`} />
+                                    )}
                                     <meta name="keywords" content={keywords}></meta>
                                     <meta name="robots" content="index, follow"></meta>
                                     <meta name="author" content="Regen PhD"></meta>
