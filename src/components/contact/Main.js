@@ -92,7 +92,7 @@ const Contact = () => {
                             <div class="contact-left">
                                 <h2 className="gradient-text-2">We'd love to help!</h2>
                                 <h3>Feel Free To Write</h3>
-                                <form name="homeContact" method="post" id="homeContactForm">
+                                <form name="homeContact" method="post" id="homeContactForm" netlify>
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <input type="text" class="form-control" name="name" id="fName" placeholder="Enter Your Full Name"/>
