@@ -223,7 +223,7 @@ const routes = [
         pageTitle:"Latest News & Articles",
         keywords:"Regen PhD blog, health insights, diagnostic advancements, expert health tips"
     },
-    /*{
+    {
         path: "/blog/:slug",
         component: InnerBlog,
         className: "home-layout",
@@ -232,7 +232,7 @@ const routes = [
         layout: true,
         pageTitle:"Latest News & Articles",
         keywords:"Regen PhD blog, health insights, diagnostic advancements, expert health tips"
-    }*/
+    }
     
 ];
 
@@ -315,7 +315,7 @@ const App = (): React.ReactElement => {
                                 <Helmet>
                                     <title>{title}</title>
                                     <meta name="description" content={description} />
-                                    <link rel="canonical" href={`https://regenphd.com${path}`} />
+                                    {/*<link rel="canonical" href={`https://regenphd.com${path}`} />*/}
                                     <meta name="keywords" content={keywords}></meta>
                                     <meta name="robots" content="index, follow"></meta>
                                     <meta name="author" content="Regen PhD"></meta>
