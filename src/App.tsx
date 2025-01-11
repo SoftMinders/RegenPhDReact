@@ -40,7 +40,7 @@ const routes = [
         keywords:"Regen PhD, advanced diagnostics, genetic health, eDNA analysis, Bone Scan, MAI Scan, personalised health plans, health optimisation"
     },
     {
-        path: "/biography",
+        path: "/biography/",
         component: Biography,
         className: "biography-layout",
         title: "Meet the Experts | Regen PhD Team Biography",
@@ -50,7 +50,7 @@ const routes = [
         keywords:"Regen PhD experts, Professor Paul Lee, Professor Jon Whitehead, health experts, team biography"
     },
     {
-        path: "/biography/prof-paul-yf-lee",
+        path: "/biography/prof-paul-yf-lee/",
         component: Paul,
         className: "biography-layout",
         title: "Professor Paul YF Lee | Leading Health Expert at Regen PhD",
@@ -60,7 +60,7 @@ const routes = [
         keywords:"Professor Paul Lee, Regen PhD, health expert, advanced diagnostics"
     },
     {
-        path: "/biography/prof-jon-whitehead",
+        path: "/biography/prof-jon-whitehead/",
         component: Jon,
         className: "biography-layout",
         title: "Dr. Jon Whitehead | Neuro and Diagnostic Specialist at Regen PhD",
@@ -70,7 +70,7 @@ const routes = [
         keywords:"Dr. Jon Whitehead, neuro specialist, diagnostic health, Regen PhD"
     },
     {
-        path: "/about",
+        path: "/about/",
         component: About,
         service: "bone",
         className: "about-layout",
@@ -81,7 +81,7 @@ const routes = [
         keywords:"Regen PhD, health diagnostics, UK health clinic, advanced diagnostics, personalised care"
     },
     {
-        path: "/bone",
+        path: "/bone/",
         component: BoneHome,
         className: "bone-layout",
         service: "bone",
@@ -92,7 +92,7 @@ const routes = [
         keywords:"Bone Scan, bone health, Regen PhD, diagnostic services, health assessments"
     },
     {
-        path: "/mai",
+        path: "/mai/",
         component: Mai,
         className: "mai-layout",
         service: "mai",
@@ -102,7 +102,7 @@ const routes = [
         pageTitle:"MAI Scan, Muscle Assessment Imaging, Regen PhD, health diagnostics"
     },
     {
-        path: "/dna",
+        path: "/dna/",
         component: DNAHome,
         service: "dna",
         className: "dna-layout",
@@ -113,7 +113,7 @@ const routes = [
         keywords:"eDNA analysis, genetic health, Regen PhD, personalised health, advanced diagnostics"
     },
     {
-        path: "/contact",
+        path: "/contact/",
         component: Contact,
         className: "contact-layout",
         title: "Contact Regen PhD | Reach Out for Personalised Health Solutions",
@@ -123,7 +123,7 @@ const routes = [
         keywords:"contact Regen PhD, personalised health solutions, diagnostic services, contact form"
     },
     {
-        path: "/research",
+        path: "/research/",
         component: ResearchHome,
         service: "bone",
         className: "bone-layout",
@@ -144,7 +144,7 @@ const routes = [
         keywords:""
     },
     {
-        path: "/areas",
+        path: "/areas/",
         component: Areas,
         className: "area-layout",
         title: "Areas We Serve | Regen PHD",
@@ -154,7 +154,7 @@ const routes = [
         keywords:""
     },
     {
-        path: "/areas/birmingham",
+        path: "/areas/birmingham/",
         component: AreaBirmingham,
         className: "area-layout",
         title: "Birmingham | Regen PHD",
@@ -164,7 +164,7 @@ const routes = [
         keywords:""
     },
     {
-        path: "/privacy-policy",
+        path: "/privacy-policy/",
         component: Policy,
         className: "policy-layout",
         title: "Privacy Policy | Regen PHD",
@@ -174,7 +174,7 @@ const routes = [
         keywords:""
     },
     {
-        path: "/terms-conditions",
+        path: "/terms-conditions/",
         component: Terms,
         className: "terms-layout",
         title: "Terms & Conditions | Regen PHD",
@@ -184,7 +184,7 @@ const routes = [
         keywords:""
     },
     {
-        path: "/phd",
+        path: "/phd/",
         component: PhD,
         className: "home-layout",
         title: "Personalised Health Design (PhD) | Tailored Health Solutions by Regen PhD",
@@ -194,7 +194,7 @@ const routes = [
         keywords:"Personalised Health Design, Regen PhD, health strategy, eDNA analysis, Bone Scan, MAI Scan, customised health solutions, health optimisation"
     },
     {
-        path: "/regenems/faq",
+        path: "/regenems/faq/",
         component: RegenEmsFaq,
         className: "home-layout",
         title: "Personalised Health Design (PhD) | Tailored Health Solutions by Regen PhD",
@@ -204,7 +204,7 @@ const routes = [
         keywords:"Personalised Health Design, Regen PhD, health strategy, eDNA analysis, Bone Scan, MAI Scan, customised health solutions, health optimisation"
     },
     {
-        path: "/motion",
+        path: "/motion/",
         component: Motion,
         className: "home-layout",
         title: "Personalised Health Design (PhD) | Tailored Health Solutions by Regen PhD",
@@ -214,7 +214,7 @@ const routes = [
         keywords:"Personalised Health Design, Regen PhD, health strategy, eDNA analysis, Bone Scan, MAI Scan, customised health solutions, health optimisation"
     },
     {
-        path: "/blog",
+        path: "/blog/",
         component: Blog,
         className: "home-layout",
         title: "Regen PhD Blog | Latest Insights in Advanced Health and Diagnostics",
@@ -315,9 +315,7 @@ const App = (): React.ReactElement => {
                                 <Helmet>
                                     <title>{title}</title>
                                     <meta name="description" content={description} />
-                                    {path == "/blog/:slug" ? "" : (
                                     <link rel="canonical" href={`https://regenphd.com${path}`} />
-                                    )}
                                     <meta name="keywords" content={keywords}></meta>
                                     <meta name="robots" content="index, follow"></meta>
                                     <meta name="author" content="Regen PhD"></meta>
@@ -356,13 +354,13 @@ const App = (): React.ReactElement => {
             ))}
             {posts.map( post => (
                 <Route
-                    key={`/blog/${post.slug}`}
-                    path={`/blog/${post.slug}`}
+                    key={`/blog/${post.slug}/`}
+                    path={`/blog/${post.slug}/`}
                     element={
                         <>
                             <Helmet>
                                 <title>{post.seo_title}</title>
-                                <link rel="canonical" href={`https://regenphd.com/blog/${post.slug}`} />
+                                <link rel="canonical" href={`https://regenphd.com/blog/${post.slug}/`} />
                                 <meta name="description" content={post.seo_description} />
                                 <meta name="keywords" content={post.seo_keywords}></meta>
                                 <meta name="robots" content="index, follow"></meta>
@@ -370,7 +368,7 @@ const App = (): React.ReactElement => {
 
                                 <meta property="og:title" content={post.seo_title} />
                                 <meta property="og:description" content={post.seo_description} />
-                                <meta property="og:url" content={`https://regenphd.com/blog/${post.slug}`}></meta>
+                                <meta property="og:url" content={`https://regenphd.com/blog/${post.slug}/`}></meta>
                                 <meta property="og:image" content={require("./assets/Images/logo.png")}></meta>
                                 <meta property="og:type" content="website"></meta>
                                 <meta property="og:site_name" content="Regen PhD"></meta>
